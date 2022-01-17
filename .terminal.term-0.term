@@ -69,4 +69,97 @@ error: src refspec main does not match any
 [m]0;~/new-pretext-project[01;34m~/new-pretext-project[00m$ rm -rf .git
 ]0;~/new-pretext-project[01;34m~/new-pretext-project[00m$ i[Kgit init
 Initialized empty Git repository in /home/user/new-pretext-project/.git/
-]0;~/new-pretext-project[01;34m~/new-pretext-project[00m$ g
+]0;~/new-pretext-project[01;34m~/new-pretext-project[00m$ git add -A
+]0;~/new-pretext-project[01;34m~/new-pretext-project[00m$ git commit -m "initial commit"
+[master (root-commit) a210992] initial commit
+ 19 files changed, 699 insertions(+)
+ create mode 100644 .2022-01-17-114746.term-0.term
+ create mode 100644 .gitignore
+ create mode 100644 .terminal.term-0.term
+ create mode 100644 README.md
+ create mode 100644 assets/frog.jpg
+ create mode 100644 project.ptx
+ create mode 100644 publication/publication.ptx
+ create mode 100644 source/backmatter.ptx
+ create mode 100644 source/ch_empty.ptx
+ create mode 100644 source/ch_first-chapter.ptx
+ create mode 100644 source/ch_pretext-features.ptx
+ create mode 100644 source/docinfo.ptx
+ create mode 100644 source/ex_firstch.ptx
+ create mode 100644 source/frontmatter.ptx
+ create mode 100644 source/main-subset.ptx
+ create mode 100644 source/main.ptx
+ create mode 100644 source/sec_firstch-examples.ptx
+ create mode 100644 source/sec_firstch-intro.ptx
+ create mode 100644 terminal.term
+]0;~/new-pretext-project[01;34m~/new-pretext-project[00m$ git remote add origin git@github.com:belinmt/bps-centering-native-students.git
+]0;~/new-pretext-project[01;34m~/new-pretext-project[00m$ git branch -M main
+]0;~/new-pretext-project[01;34m~/new-pretext-project[00m$ git push -u origin main
+The authenticity of host 'github.com (140.82.114.4)' can't be established.
+ECDSA key fingerprint is SHA256:p2QAMXNIC1TJYWeIOttrVc98/R1BUFWu3/LiyKgUfQM.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com,140.82.114.4' (ECDSA) to the list of known hosts.
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+]0;~/new-pretext-project[01;34m~/new-pretext-project[00m$ ssh-keygen[K[K[K[K[K[K[K[K[K[Kssh-keygen -t ed25519 -C "your_email@example.com"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[K[C"b"e"l"i"n"m"t"@"g"m"a"i"l"."c"o"m"
+Generating public/private ed25519 key pair.
+Enter file in which to save the key (/home/user/.ssh/id_ed25519): 
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /home/user/.ssh/id_ed25519
+Your public key has been saved in /home/user/.ssh/id_ed25519.pub
+The key fingerprint is:
+SHA256:jPRzgYFHDgAYpDyXX5zxidsK9ezfKH9Z1wsKfHwX3fA belinmt@gmail.com
+The key's randomart image is:
++--[ED25519 256]--+
+|o+.....+o        |
+|+   . oo*o.   .  |
+|.o o  .Boo.    oo|
+|  o ..o+=  .   .E|
+|     o..S+o     o|
+|      . o= o o oo|
+|       . .o o = o|
+|         ...oo . |
+|          o+..   |
++----[SHA256]-----+
+]0;~/new-pretext-project[01;34m~/new-pretext-project[00m$ cat /home/user/.ssh/id_ed25519.pub
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIL7nvl6KgPOrY0H8y3RyvW3ufPfOFKv/bidrhELMKUJj belinmt@gmail.com
+]0;~/new-pretext-project[01;34m~/new-pretext-project[00m$ pretext build
+PreTeXt project found in `/home/user/new-pretext-project`.
+Since no build target was supplied, the first target of the project.ptx manifest will be built.
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmpdfg7mfkv
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmpdfg7mfkv
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+
+Copying successful build from /tmp/tmpdfg7mfkv into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+]0;~/new-pretext-project[01;34m~/new-pretext-project[00m$ git remote
+origin
+]0;~/new-pretext-project[01;34m~/new-pretext-project[00m$ git branch
+[?1h=* [32mmain[m[m
+[K[?1l>]0;~/new-pretext-project[01;34m~/new-pretext-project[00m$ git push -u origin main
+Warning: Permanently added the ECDSA host key for IP address '140.82.113.4' to the list of known hosts.
+Enumerating objects: 24, done.
+Counting objects:   4% (1/24)Counting objects:   8% (2/24)Counting objects:  12% (3/24)Counting objects:  16% (4/24)Counting objects:  20% (5/24)Counting objects:  25% (6/24)Counting objects:  29% (7/24)Counting objects:  33% (8/24)Counting objects:  37% (9/24)Counting objects:  41% (10/24)Counting objects:  45% (11/24)Counting objects:  50% (12/24)Counting objects:  54% (13/24)Counting objects:  58% (14/24)Counting objects:  62% (15/24)Counting objects:  66% (16/24)Counting objects:  70% (17/24)Counting objects:  75% (18/24)Counting objects:  79% (19/24)Counting objects:  83% (20/24)Counting objects:  87% (21/24)Counting objects:  91% (22/24)Counting objects:  95% (23/24)Counting objects: 100% (24/24)Counting objects: 100% (24/24), done.
+Delta compression using up to 4 threads
+Compressing objects:   4% (1/21)Compressing objects:   9% (2/21)Compressing objects:  14% (3/21)Compressing objects:  19% (4/21)Compressing objects:  23% (5/21)Compressing objects:  28% (6/21)Compressing objects:  33% (7/21)Compressing objects:  38% (8/21)Compressing objects:  42% (9/21)Compressing objects:  47% (10/21)Compressing objects:  52% (11/21)Compressing objects:  57% (12/21)Compressing objects:  61% (13/21)Compressing objects:  66% (14/21)Compressing objects:  71% (15/21)Compressing objects:  76% (16/21)Compressing objects:  80% (17/21)Compressing objects:  85% (18/21)Compressing objects:  90% (19/21)Compressing objects:  95% (20/21)Compressing objects: 100% (21/21)Compressing objects: 100% (21/21), done.
+Writing objects:   4% (1/24)Writing objects:   8% (2/24)Writing objects:  12% (3/24)Writing objects:  16% (4/24)Writing objects:  20% (5/24)Writing objects:  25% (6/24)Writing objects:  29% (7/24)Writing objects:  33% (8/24)Writing objects:  37% (9/24)Writing objects:  41% (10/24)Writing objects:  45% (11/24)Writing objects:  50% (12/24)Writing objects:  54% (13/24)Writing objects:  58% (14/24)Writing objects:  62% (15/24)Writing objects:  66% (16/24)Writing objects:  70% (17/24)Writing objects:  75% (18/24)Writing objects:  79% (19/24)Writing objects:  83% (20/24)Writing objects:  87% (21/24)Writing objects:  91% (22/24)Writing objects:  95% (23/24)Writing objects: 100% (24/24)Writing objects: 100% (24/24), 161.16 KiB | 14.65 MiB/s, done.
+Total 24 (delta 0), reused 0 (delta 0)
+To github.com:belinmt/bps-centering-native-students.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+]0;~/new-pretext-project[01;34m~/new-pretext-project[00m$ 
