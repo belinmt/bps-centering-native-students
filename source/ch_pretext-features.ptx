@@ -2,12 +2,12 @@
 <!-- This chapter will eventually contain a bunch of examples of pretext functionality. Useful for copy/paste examples of various things. -->
 
 <chapter xml:id="ch_pretext-features" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Examples of <pretext /> features</title>
+  <title>Sample Lesson Plans</title>
   <introduction>
     <p>Below are examples of a lot of <pretext /> elements.</p>
   </introduction>
   <section xml:id="sec_ptxfeat-blocks">
-    <title>Environments and Blocks</title>
+    <title>Interdisciplinary Example</title>
     <p>Some text</p>
     <theorem xml:id="thm-my-theorem">
       <title>My Theorem</title>

@@ -6,9 +6,21 @@
 <frontmatter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="frontmatter">
   <titlepage>
     <author>
-      <personname>Me</personname>
-      <department>My department</department>
-      <institution>My school</institution>
+      <personname>Leola Paquin, PhD., Editor</personname>
+      <department>Native American Studies</department>
+      <institution>University of New Mexico</institution>
+    </author>
+      
+    <author>
+      <personname>Lani Tsinnajinnie, PhD., Editor</personname>
+      <department>Community and Regional Planning</department>
+      <institution>University of New Mexico</institution>
+    </author>
+
+    <author>
+      <personname>Belin Tsinnajinnie, PhD., Editor</personname>
+      <department>Mathematics</department>
+      <institution>Santa Fe Community College</institution>
     </author>
     <date><today/></date>
   </titlepage>

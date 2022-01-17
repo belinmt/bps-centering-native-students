@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_firstch-intro" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Introduction</title>
+  <introduction>
+    <p>
+      The purpose of outlining a culturally responsive curriculum framework for Bernalillo Public Schools is to provide a locally based Indigenous foundation to the curriculum.  While this effort is born out of the recognition of inherent cultural, educational, and political sovereignty of the Pueblo Nations whom the district serves, implementation of the framework is to benefit the education of all BPS students.  The framework is grounded in the practicing of core values through recognizing enduring examples; prevalent symbols and impacts of colonization; approaches to centering students; and articulating desired outcomes.  The framework is intended to be a shared reference point for school district administration, educators, BPS Indian Education, Indigenous communities, and Pueblo Nations.  This is a shared dynamic document meant to be nourished and grown by all.
+    </p>
+  </introduction>
+  <subsection xml:id="subsec-a-subsection">
+    <title>A subsection</title>
+    <p>
+      Content of the subsection.
+    </p>
+    <p>
+      More content.
+    </p>
+  </subsection>
+
+  <subsection xml:id="subsec-another-subsection">
+    <title>Another Subsection</title>
+    <p>
+      Text with some math: <m>\sin(x) = \cos(x)</m> only for some values of <m>x</m>.
+    </p>
+  </subsection>
+
+  <conclusion>
+    <p>
+      After the last subsection, you might have a conclusion.
+    </p>
+  </conclusion>
+</section>
+

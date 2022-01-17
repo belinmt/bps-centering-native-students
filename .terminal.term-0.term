@@ -162,4 +162,2212 @@ Total 24 (delta 0), reused 0 (delta 0)
 To github.com:belinmt/bps-centering-native-students.git
  * [new branch]      main -> main
 Branch 'main' set up to track remote branch 'main' from 'origin'.
-]0;~/new-pretext-project[01;34m~/new-pretext-project[00m$ 
+]0;~/new-pretext-project[01;34m~/new-pretext-project[00m$ pretext bp[K[K [Kpubsli[K[K[Klish
+PreTeXt project found in `/home/user/new-pretext-project`.
+Updating project Git repository with latest changes to source.
+Preparing to publish the latest build located in `/home/user/new-pretext-project/output/html`.
+Latest build copied to `/home/user/new-pretext-project/docs`.
+Pushing to GitHub. (Your password may be required below.)
+Latest build successfully pushed to GitHub.
+(It may take a few seconds for GitHub Pages to reflect any changes.)
+]0;~/new-pretext-project[01;34m~/new-pretext-project[00m$ pretext view --w[K[Kwatch
+PreTeXt project found in `/home/user/new-pretext-project`.
+Usage: pretext view [OPTIONS] [TARGET]
+Try 'pretext view --help' for help.
+
+Error: Invalid value for '-a' / '--access': invalid choice: tch. (choose from public, private)
+]0;~/new-pretext-project[01;34m~/new-pretext-project[00m$ pretext view --hl[Kelp
+PreTeXt project found in `/home/user/new-pretext-project`.
+Usage: pretext view [OPTIONS] [TARGET]
+
+  Starts a local server to preview built PreTeXt documents in your browser.
+  TARGET is the name of the <target/> defined in `project.ptx`.
+
+Options:
+  -a, --access [public|private]  Choose whether or not to allow other
+                                 computers on your local network to access
+                                 your documents using your IP address.
+                                 (Ignored when used in CoCalc, which works
+                                 automatically.)  [default: private]
+
+  -p, --port INTEGER             Choose which port to use for the local
+                                 server.  [default: 8000]
+
+  -d, --directory PATH           Serve files from provided directory
+  -w, --watch                    Run a build before starting server, and then
+                                 watch the status of source files,
+                                 automatically rebuilding target when changes
+                                 are made. Only supports HTML-format targets,
+                                 and only recommended for smaller projects or
+                                 small subsets of projects.
+
+  -b, --build                    Run a build before starting server.
+  --help                         Show this message and exit.
+]0;~/new-pretext-project[01;34m~/new-pretext-project[00m$ pretext view -w
+PreTeXt project found in `/home/user/new-pretext-project`.
+Building target...
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmp6vq3w7az
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmp6vq3w7az
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+
+Copying successful build from /tmp/tmp6vq3w7az into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+Now starting a server to preview directory `/home/user/new-pretext-project/output/html`.
+
+
+Watching for changes in `/home/user/new-pretext-project/source` ...
+
+Server started at https://cocalc.com/a2bb9f6c-fe4b-4560-8f02-03ea76bcd282/server/8000/
+
+Use [Ctrl]+[C] to halt the server.
+
+192.168.86.218 - - [17/Jan/2022 19:41:06] "GET / HTTP/1.1" 200 -
+192.168.86.218 - - [17/Jan/2022 19:41:06] "GET /frontmatter.html HTTP/1.1" 200 -
+192.168.86.218 - - [17/Jan/2022 19:41:07] code 404, message File not found
+192.168.86.218 - - [17/Jan/2022 19:41:07] "GET /developer.css HTTP/1.1" 404 -
+192.168.86.218 - - [17/Jan/2022 19:41:07] code 404, message File not found
+192.168.86.218 - - [17/Jan/2022 19:41:07] "GET /frontmatter.ptx HTTP/1.1" 404 -
+192.168.86.218 - - [17/Jan/2022 19:41:07] code 404, message File not found
+192.168.86.218 - - [17/Jan/2022 19:41:07] "GET /frontmatter.ptx HTTP/1.1" 404 -
+192.168.86.218 - - [17/Jan/2022 19:41:31] "GET /frontmatter.html HTTP/1.1" 200 -
+192.168.86.218 - - [17/Jan/2022 19:41:31] code 404, message File not found
+192.168.86.218 - - [17/Jan/2022 19:41:31] "GET /developer.css HTTP/1.1" 404 -
+192.168.86.218 - - [17/Jan/2022 19:41:31] code 404, message File not found
+192.168.86.218 - - [17/Jan/2022 19:41:31] "GET /frontmatter.ptx HTTP/1.1" 404 -
+192.168.86.218 - - [17/Jan/2022 19:41:31] code 404, message File not found
+192.168.86.218 - - [17/Jan/2022 19:41:31] "GET /frontmatter.ptx HTTP/1.1" 404 -
+
+Changes to source detected.
+
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmpjalr4zjr
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmpjalr4zjr
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+
+Copying successful build from /tmp/tmpjalr4zjr into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+
+Changes to source detected.
+
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmpxhivitp5
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmpxhivitp5
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+
+Copying successful build from /tmp/tmpxhivitp5 into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+
+Changes to source detected.
+
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmp53f4rp8i
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmp53f4rp8i
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+
+Copying successful build from /tmp/tmp53f4rp8i into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+
+Changes to source detected.
+
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmpgw7lbl9m
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmpgw7lbl9m
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+
+Copying successful build from /tmp/tmpgw7lbl9m into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+192.168.86.218 - - [17/Jan/2022 19:43:11] "GET /frontmatter.html HTTP/1.1" 200 -
+192.168.86.218 - - [17/Jan/2022 19:43:11] code 404, message File not found
+192.168.86.218 - - [17/Jan/2022 19:43:11] "GET /developer.css HTTP/1.1" 404 -
+192.168.86.218 - - [17/Jan/2022 19:43:11] code 404, message File not found
+192.168.86.218 - - [17/Jan/2022 19:43:11] "GET /frontmatter.ptx HTTP/1.1" 404 -
+192.168.86.218 - - [17/Jan/2022 19:43:12] code 404, message File not found
+192.168.86.218 - - [17/Jan/2022 19:43:12] "GET /frontmatter.ptx HTTP/1.1" 404 -
+192.168.86.218 - - [17/Jan/2022 19:43:39] "GET /ch-first.html HTTP/1.1" 200 -
+192.168.86.218 - - [17/Jan/2022 19:43:39] code 404, message File not found
+192.168.86.218 - - [17/Jan/2022 19:43:39] "GET /developer.css HTTP/1.1" 404 -
+192.168.86.218 - - [17/Jan/2022 19:43:39] code 404, message File not found
+192.168.86.218 - - [17/Jan/2022 19:43:39] "GET /ch-first.ptx HTTP/1.1" 404 -
+192.168.86.218 - - [17/Jan/2022 19:43:39] code 404, message File not found
+192.168.86.218 - - [17/Jan/2022 19:43:39] "GET /ch-first.ptx HTTP/1.1" 404 -
+
+Changes to source detected.
+
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmp9na8i69y
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmp9na8i69y
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+
+Copying successful build from /tmp/tmp9na8i69y into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+192.168.86.218 - - [17/Jan/2022 19:44:47] "GET /ch-first.html HTTP/1.1" 200 -
+192.168.86.218 - - [17/Jan/2022 19:44:47] code 404, message File not found
+192.168.86.218 - - [17/Jan/2022 19:44:47] "GET /developer.css HTTP/1.1" 404 -
+192.168.86.218 - - [17/Jan/2022 19:44:47] code 404, message File not found
+192.168.86.218 - - [17/Jan/2022 19:44:47] "GET /ch-first.ptx HTTP/1.1" 404 -
+192.168.86.218 - - [17/Jan/2022 19:44:48] "GET /sec_firstch-intro.html HTTP/1.1" 200 -
+192.168.86.218 - - [17/Jan/2022 19:44:49] code 404, message File not found
+192.168.86.218 - - [17/Jan/2022 19:44:49] "GET /developer.css HTTP/1.1" 404 -
+192.168.86.218 - - [17/Jan/2022 19:44:49] code 404, message File not found
+192.168.86.218 - - [17/Jan/2022 19:44:49] "GET /sec_firstch-intro.ptx HTTP/1.1" 404 -
+192.168.86.218 - - [17/Jan/2022 19:44:49] code 404, message File not found
+192.168.86.218 - - [17/Jan/2022 19:44:49] "GET /sec_firstch-intro.ptx HTTP/1.1" 404 -
+
+Changes to source detected.
+
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmpnwy6kchy
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmpnwy6kchy
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+
+Copying successful build from /tmp/tmpnwy6kchy into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+
+Changes to source detected.
+
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmpisnhticu
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmpisnhticu
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+
+Copying successful build from /tmp/tmpisnhticu into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+192.168.86.218 - - [17/Jan/2022 19:46:07] "GET /sec_firstch-intro.html HTTP/1.1" 200 -
+192.168.86.218 - - [17/Jan/2022 19:46:07] code 404, message File not found
+192.168.86.218 - - [17/Jan/2022 19:46:07] "GET /developer.css HTTP/1.1" 404 -
+192.168.86.218 - - [17/Jan/2022 19:46:08] code 404, message File not found
+192.168.86.218 - - [17/Jan/2022 19:46:08] "GET /sec_firstch-intro.ptx HTTP/1.1" 404 -
+192.168.86.218 - - [17/Jan/2022 19:46:08] code 404, message File not found
+192.168.86.218 - - [17/Jan/2022 19:46:08] "GET /sec_firstch-intro.ptx HTTP/1.1" 404 -
+
+Changes to source detected.
+
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmpamig8knp
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmpamig8knp
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+
+Copying successful build from /tmp/tmpamig8knp into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+
+Changes to source detected.
+
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmp2i3bc7xc
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmp2i3bc7xc
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+
+Copying successful build from /tmp/tmp2i3bc7xc into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+
+Changes to source detected.
+
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmpsgpm1wk2
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmpsgpm1wk2
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+
+Copying successful build from /tmp/tmpsgpm1wk2 into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+192.168.86.218 - - [17/Jan/2022 19:47:22] "GET /ch-empty.html HTTP/1.1" 200 -
+192.168.86.218 - - [17/Jan/2022 19:47:23] code 404, message File not found
+192.168.86.218 - - [17/Jan/2022 19:47:23] "GET /developer.css HTTP/1.1" 404 -
+192.168.86.218 - - [17/Jan/2022 19:47:23] code 404, message File not found
+192.168.86.218 - - [17/Jan/2022 19:47:23] "GET /ch-empty.ptx HTTP/1.1" 404 -
+192.168.86.218 - - [17/Jan/2022 19:47:23] code 404, message File not found
+192.168.86.218 - - [17/Jan/2022 19:47:23] "GET /ch-empty.ptx HTTP/1.1" 404 -
+
+Changes to source detected.
+
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmpn82li74r
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmpn82li74r
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+
+Copying successful build from /tmp/tmpn82li74r into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+
+Changes to source detected.
+
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmpjt7t2s_q
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmpjt7t2s_q
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+
+Copying successful build from /tmp/tmpjt7t2s_q into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+192.168.86.218 - - [17/Jan/2022 19:47:58] "GET /ch-empty.html HTTP/1.1" 200 -
+192.168.86.218 - - [17/Jan/2022 19:47:58] code 404, message File not found
+192.168.86.218 - - [17/Jan/2022 19:47:58] "GET /developer.css HTTP/1.1" 404 -
+192.168.86.218 - - [17/Jan/2022 19:47:58] code 404, message File not found
+192.168.86.218 - - [17/Jan/2022 19:47:58] "GET /ch-empty.ptx HTTP/1.1" 404 -
+192.168.86.218 - - [17/Jan/2022 19:47:59] code 404, message File not found
+192.168.86.218 - - [17/Jan/2022 19:47:59] "GET /ch-empty.ptx HTTP/1.1" 404 -
+192.168.86.218 - - [17/Jan/2022 19:48:01] "GET /ch-empty.html HTTP/1.1" 200 -
+192.168.86.218 - - [17/Jan/2022 19:48:01] code 404, message File not found
+192.168.86.218 - - [17/Jan/2022 19:48:01] "GET /developer.css HTTP/1.1" 404 -
+192.168.86.218 - - [17/Jan/2022 19:48:01] code 404, message File not found
+192.168.86.218 - - [17/Jan/2022 19:48:01] "GET /ch-empty.ptx HTTP/1.1" 404 -
+192.168.86.218 - - [17/Jan/2022 19:48:01] code 404, message File not found
+192.168.86.218 - - [17/Jan/2022 19:48:01] "GET /ch-empty.ptx HTTP/1.1" 404 -
+
+Changes to source detected.
+
+[31merror: [0mXML Syntax Error with instance of xinclude; see error_syntax.log. Quitting...
+192.168.86.218 - - [17/Jan/2022 19:48:38] "GET /ch-empty.html HTTP/1.1" 200 -
+192.168.86.218 - - [17/Jan/2022 19:48:39] code 404, message File not found
+192.168.86.218 - - [17/Jan/2022 19:48:39] "GET /developer.css HTTP/1.1" 404 -
+192.168.86.218 - - [17/Jan/2022 19:48:39] code 404, message File not found
+192.168.86.218 - - [17/Jan/2022 19:48:39] "GET /ch-empty.ptx HTTP/1.1" 404 -
+192.168.86.218 - - [17/Jan/2022 19:48:39] code 404, message File not found
+192.168.86.218 - - [17/Jan/2022 19:48:39] "GET /ch-empty.ptx HTTP/1.1" 404 -
+192.168.86.218 - - [17/Jan/2022 19:48:41] "GET /ch-empty.html HTTP/1.1" 200 -
+192.168.86.218 - - [17/Jan/2022 19:48:41] code 404, message File not found
+192.168.86.218 - - [17/Jan/2022 19:48:41] "GET /developer.css HTTP/1.1" 404 -
+192.168.86.218 - - [17/Jan/2022 19:48:41] code 404, message File not found
+192.168.86.218 - - [17/Jan/2022 19:48:41] "GET /ch-empty.ptx HTTP/1.1" 404 -
+192.168.86.218 - - [17/Jan/2022 19:48:41] code 404, message File not found
+192.168.86.218 - - [17/Jan/2022 19:48:41] "GET /ch-empty.ptx HTTP/1.1" 404 -
+
+Changes to source detected.
+
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmp6_5494di
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmp6_5494di
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+
+Copying successful build from /tmp/tmp6_5494di into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+192.168.86.218 - - [17/Jan/2022 19:49:49] "GET /ch-empty.html HTTP/1.1" 200 -
+192.168.86.218 - - [17/Jan/2022 19:49:50] code 404, message File not found
+192.168.86.218 - - [17/Jan/2022 19:49:50] "GET /developer.css HTTP/1.1" 404 -
+192.168.86.218 - - [17/Jan/2022 19:49:50] code 404, message File not found
+192.168.86.218 - - [17/Jan/2022 19:49:50] "GET /ch-empty.ptx HTTP/1.1" 404 -
+192.168.86.218 - - [17/Jan/2022 19:49:50] code 404, message File not found
+192.168.86.218 - - [17/Jan/2022 19:49:50] "GET /ch-empty.ptx HTTP/1.1" 404 -
+192.168.86.218 - - [17/Jan/2022 19:49:52] "GET /ch-empty.html HTTP/1.1" 200 -
+192.168.86.218 - - [17/Jan/2022 19:49:52] code 404, message File not found
+192.168.86.218 - - [17/Jan/2022 19:49:52] "GET /developer.css HTTP/1.1" 404 -
+192.168.86.218 - - [17/Jan/2022 19:49:52] code 404, message File not found
+192.168.86.218 - - [17/Jan/2022 19:49:52] "GET /ch-empty.ptx HTTP/1.1" 404 -
+192.168.86.218 - - [17/Jan/2022 19:49:52] code 404, message File not found
+192.168.86.218 - - [17/Jan/2022 19:49:52] "GET /ch-empty.ptx HTTP/1.1" 404 -
+
+Changes to source detected.
+
+[31merror: [0mXML Syntax Error with instance of xinclude; see error_syntax.log. Quitting...
+192.168.86.218 - - [17/Jan/2022 19:50:47] "GET /ch-empty.html HTTP/1.1" 200 -
+192.168.86.218 - - [17/Jan/2022 19:50:47] code 404, message File not found
+192.168.86.218 - - [17/Jan/2022 19:50:47] "GET /developer.css HTTP/1.1" 404 -
+192.168.86.218 - - [17/Jan/2022 19:50:47] code 404, message File not found
+192.168.86.218 - - [17/Jan/2022 19:50:47] "GET /ch-empty.ptx HTTP/1.1" 404 -
+192.168.86.218 - - [17/Jan/2022 19:50:47] code 404, message File not found
+192.168.86.218 - - [17/Jan/2022 19:50:47] "GET /ch-empty.ptx HTTP/1.1" 404 -
+192.168.86.218 - - [17/Jan/2022 19:50:49] "GET /ch-empty.html HTTP/1.1" 200 -
+192.168.86.218 - - [17/Jan/2022 19:50:49] code 404, message File not found
+192.168.86.218 - - [17/Jan/2022 19:50:49] "GET /developer.css HTTP/1.1" 404 -
+192.168.86.218 - - [17/Jan/2022 19:50:49] code 404, message File not found
+192.168.86.218 - - [17/Jan/2022 19:50:49] "GET /ch-empty.ptx HTTP/1.1" 404 -
+192.168.86.218 - - [17/Jan/2022 19:50:49] code 404, message File not found
+192.168.86.218 - - [17/Jan/2022 19:50:49] "GET /ch-empty.ptx HTTP/1.1" 404 -
+192.168.86.218 - - [17/Jan/2022 19:50:53] "GET /sec_firstch-intro.html HTTP/1.1" 200 -
+192.168.86.218 - - [17/Jan/2022 19:50:53] code 404, message File not found
+192.168.86.218 - - [17/Jan/2022 19:50:53] "GET /developer.css HTTP/1.1" 404 -
+192.168.86.218 - - [17/Jan/2022 19:50:53] code 404, message File not found
+192.168.86.218 - - [17/Jan/2022 19:50:53] "GET /sec_firstch-intro.ptx HTTP/1.1" 404 -
+192.168.86.218 - - [17/Jan/2022 19:50:53] code 404, message File not found
+192.168.86.218 - - [17/Jan/2022 19:50:53] "GET /sec_firstch-intro.ptx HTTP/1.1" 404 -
+192.168.86.218 - - [17/Jan/2022 19:52:17] "GET /ch-science.html HTTP/1.1" 200 -
+192.168.86.218 - - [17/Jan/2022 19:52:17] code 404, message File not found
+192.168.86.218 - - [17/Jan/2022 19:52:17] "GET /developer.css HTTP/1.1" 404 -
+192.168.86.218 - - [17/Jan/2022 19:52:17] code 404, message File not found
+192.168.86.218 - - [17/Jan/2022 19:52:17] "GET /ch-science.ptx HTTP/1.1" 404 -
+192.168.86.218 - - [17/Jan/2022 19:52:17] code 404, message File not found
+192.168.86.218 - - [17/Jan/2022 19:52:17] "GET /ch-science.ptx HTTP/1.1" 404 -
+192.168.86.218 - - [17/Jan/2022 19:52:42] "GET /sec_firstch-intro.html HTTP/1.1" 200 -
+192.168.86.218 - - [17/Jan/2022 19:52:42] code 404, message File not found
+192.168.86.218 - - [17/Jan/2022 19:52:42] "GET /developer.css HTTP/1.1" 404 -
+192.168.86.218 - - [17/Jan/2022 19:52:42] code 404, message File not found
+192.168.86.218 - - [17/Jan/2022 19:52:42] "GET /sec_firstch-intro.ptx HTTP/1.1" 404 -
+192.168.86.218 - - [17/Jan/2022 19:52:42] code 404, message File not found
+192.168.86.218 - - [17/Jan/2022 19:52:42] "GET /sec_firstch-intro.ptx HTTP/1.1" 404 -
+192.168.86.218 - - [17/Jan/2022 19:52:45] "GET /sec_firstch-examples.html HTTP/1.1" 200 -
+192.168.86.218 - - [17/Jan/2022 19:52:45] code 404, message File not found
+192.168.86.218 - - [17/Jan/2022 19:52:45] "GET /developer.css HTTP/1.1" 404 -
+192.168.86.218 - - [17/Jan/2022 19:52:45] code 404, message File not found
+192.168.86.218 - - [17/Jan/2022 19:52:45] "GET /sec_firstch-examples.ptx HTTP/1.1" 404 -
+192.168.86.218 - - [17/Jan/2022 19:52:45] code 404, message File not found
+192.168.86.218 - - [17/Jan/2022 19:52:45] "GET /sec_firstch-examples.ptx HTTP/1.1" 404 -
+
+Changes to source detected.
+
+[31merror: [0mXML Syntax Error with instance of xinclude; see error_syntax.log. Quitting...
+
+Changes to source detected.
+
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmpj34n9ya7
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmpj34n9ya7
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+
+Copying successful build from /tmp/tmpj34n9ya7 into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+
+Changes to source detected.
+
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmpbqxsahej
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmpbqxsahej
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+
+Copying successful build from /tmp/tmpbqxsahej into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+
+Changes to source detected.
+
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmpym1u10vf
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmpym1u10vf
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+
+Copying successful build from /tmp/tmpym1u10vf into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+
+Changes to source detected.
+
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmpz1q0s2iy
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmpz1q0s2iy
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+
+Copying successful build from /tmp/tmpz1q0s2iy into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+
+Changes to source detected.
+
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmp2jlz5cd5
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmp2jlz5cd5
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+
+Copying successful build from /tmp/tmp2jlz5cd5 into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+
+Changes to source detected.
+
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmpn94ukrks
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmpn94ukrks
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+
+Copying successful build from /tmp/tmpn94ukrks into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+
+Changes to source detected.
+
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmpqkdn1tav
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmpqkdn1tav
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+
+Copying successful build from /tmp/tmpqkdn1tav into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+
+Changes to source detected.
+
+[31merror: [0mXML Syntax Error with instance of xinclude; see error_syntax.log. Quitting...
+
+Changes to source detected.
+
+[31merror: [0mXML Syntax Error with instance of xinclude; see error_syntax.log. Quitting...
+
+Changes to source detected.
+
+[31merror: [0mXML Syntax Error with instance of xinclude; see error_syntax.log. Quitting...
+
+Changes to source detected.
+
+[31merror: [0mXML Syntax Error with instance of xinclude; see error_syntax.log. Quitting...
+
+Changes to source detected.
+
+[31merror: [0mXML Syntax Error with instance of xinclude; see error_syntax.log. Quitting...
+
+Changes to source detected.
+
+[31merror: [0mXML Syntax Error with instance of xinclude; see error_syntax.log. Quitting...
+
+Changes to source detected.
+
+[31merror: [0mXML Syntax Error with instance of xinclude; see error_syntax.log. Quitting...
+
+Changes to source detected.
+
+[31merror: [0mXML Syntax Error with instance of xinclude; see error_syntax.log. Quitting...
+
+Changes to source detected.
+
+[31merror: [0mXML Syntax Error with instance of xinclude; see error_syntax.log. Quitting...
+
+Changes to source detected.
+
+[31merror: [0mXML Syntax Error with instance of xinclude; see error_syntax.log. Quitting...
+
+Changes to source detected.
+
+[31merror: [0mXML Syntax Error with instance of xinclude; see error_syntax.log. Quitting...
+
+Changes to source detected.
+
+[31merror: [0mXML Syntax Error with instance of xinclude; see error_syntax.log. Quitting...
+
+Changes to source detected.
+
+[31merror: [0mXML Syntax Error with instance of xinclude; see error_syntax.log. Quitting...
+
+Changes to source detected.
+
+[31merror: [0mXML Syntax Error with instance of xinclude; see error_syntax.log. Quitting...
+
+Changes to source detected.
+
+[31merror: [0mXML Syntax Error with instance of xinclude; see error_syntax.log. Quitting...
+
+Changes to source detected.
+
+[31merror: [0mXML Syntax Error with instance of xinclude; see error_syntax.log. Quitting...
+
+Changes to source detected.
+
+[31merror: [0mXML Syntax Error with instance of xinclude; see error_syntax.log. Quitting...
+
+Changes to source detected.
+
+[31merror: [0mXML Syntax Error with instance of xinclude; see error_syntax.log. Quitting...
+
+Changes to source detected.
+
+[31merror: [0mXML Syntax Error with instance of xinclude; see error_syntax.log. Quitting...
+
+Changes to source detected.
+
+[31merror: [0mXML Syntax Error with instance of xinclude; see error_syntax.log. Quitting...
+
+Changes to source detected.
+
+[31merror: [0mXML Syntax Error, see error_syntax.log. Quitting...
+192.168.105.213 - - [17/Jan/2022 20:17:18] "GET /sec_firstch-examples.html HTTP/1.1" 200 -
+192.168.105.213 - - [17/Jan/2022 20:17:18] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 20:17:18] "GET /developer.css HTTP/1.1" 404 -
+192.168.105.213 - - [17/Jan/2022 20:17:19] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 20:17:19] "GET /sec_firstch-examples.ptx HTTP/1.1" 404 -
+192.168.105.213 - - [17/Jan/2022 20:17:19] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 20:17:19] "GET /sec_firstch-examples.ptx HTTP/1.1" 404 -
+192.168.105.213 - - [17/Jan/2022 20:17:21] "GET /sec_firstch-examples.html HTTP/1.1" 200 -
+192.168.105.213 - - [17/Jan/2022 20:17:21] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 20:17:21] "GET /developer.css HTTP/1.1" 404 -
+192.168.105.213 - - [17/Jan/2022 20:17:21] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 20:17:21] "GET /sec_firstch-examples.ptx HTTP/1.1" 404 -
+192.168.105.213 - - [17/Jan/2022 20:17:21] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 20:17:21] "GET /sec_firstch-examples.ptx HTTP/1.1" 404 -
+192.168.105.213 - - [17/Jan/2022 20:17:22] "GET /sec_firstch-examples.html HTTP/1.1" 200 -
+192.168.105.213 - - [17/Jan/2022 20:17:23] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 20:17:23] "GET /developer.css HTTP/1.1" 404 -
+192.168.105.213 - - [17/Jan/2022 20:17:23] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 20:17:23] "GET /sec_firstch-examples.ptx HTTP/1.1" 404 -
+192.168.105.213 - - [17/Jan/2022 20:17:23] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 20:17:23] "GET /sec_firstch-examples.ptx HTTP/1.1" 404 -
+192.168.105.213 - - [17/Jan/2022 20:17:24] "GET /sec_firstch-examples.html HTTP/1.1" 200 -
+192.168.105.213 - - [17/Jan/2022 20:17:24] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 20:17:24] "GET /developer.css HTTP/1.1" 404 -
+192.168.105.213 - - [17/Jan/2022 20:17:24] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 20:17:24] "GET /sec_firstch-examples.ptx HTTP/1.1" 404 -
+192.168.105.213 - - [17/Jan/2022 20:17:24] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 20:17:24] "GET /sec_firstch-examples.ptx HTTP/1.1" 404 -
+^C
+Closing server...
+]0;~/new-pretext-project[01;34m~/new-pretext-project[00m$ pretext build
+PreTeXt project found in `/home/user/new-pretext-project`.
+Since no build target was supplied, the first target of the project.ptx manifest will be built.
+[31merror: [0mXML Syntax Error with instance of xinclude; see error_syntax.log. Quitting...
+]0;~/new-pretext-project[01;34m~/new-pretext-project[00m$ pretext build
+PreTeXt project found in `/home/user/new-pretext-project`.
+Since no build target was supplied, the first target of the project.ptx manifest will be built.
+[31merror: [0mXML Syntax Error with instance of xinclude; see error_syntax.log. Quitting...
+]0;~/new-pretext-project[01;34m~/new-pretext-project[00m$ pretext build
+PreTeXt project found in `/home/user/new-pretext-project`.
+Since no build target was supplied, the first target of the project.ptx manifest will be built.
+[31merror: [0mThe file /home/user/new-pretext-project/source/main.ptx does not exist
+]0;~/new-pretext-project[01;34m~/new-pretext-project[00m$ pretext build
+PreTeXt project found in `/home/user/new-pretext-project`.
+Since no build target was supplied, the first target of the project.ptx manifest will be built.
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmpeic2typ_
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmpeic2typ_
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+
+Copying successful build from /tmp/tmpeic2typ_ into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+]0;~/new-pretext-project[01;34m~/new-pretext-project[00m$ pretext buildview -w
+PreTeXt project found in `/home/user/new-pretext-project`.
+Building target...
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmp1ysgzts8
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmp1ysgzts8
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+
+Copying successful build from /tmp/tmp1ysgzts8 into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+Now starting a server to preview directory `/home/user/new-pretext-project/output/html`.
+
+
+Watching for changes in `/home/user/new-pretext-project/source` ...
+
+Server started at https://cocalc.com/a2bb9f6c-fe4b-4560-8f02-03ea76bcd282/server/8000/
+
+Use [Ctrl]+[C] to halt the server.
+
+192.168.105.213 - - [17/Jan/2022 20:26:40] "GET / HTTP/1.1" 200 -
+192.168.105.213 - - [17/Jan/2022 20:26:41] "GET /frontmatter.html HTTP/1.1" 200 -
+192.168.105.213 - - [17/Jan/2022 20:26:41] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 20:26:41] "GET /developer.css HTTP/1.1" 404 -
+192.168.105.213 - - [17/Jan/2022 20:26:41] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 20:26:41] "GET /frontmatter.ptx HTTP/1.1" 404 -
+192.168.105.213 - - [17/Jan/2022 20:26:42] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 20:26:42] "GET /frontmatter.ptx HTTP/1.1" 404 -
+192.168.105.213 - - [17/Jan/2022 20:26:54] "GET /CH_SCI.html HTTP/1.1" 200 -
+192.168.105.213 - - [17/Jan/2022 20:26:54] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 20:26:54] "GET /developer.css HTTP/1.1" 404 -
+192.168.105.213 - - [17/Jan/2022 20:26:54] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 20:26:54] "GET /CH_SCI.ptx HTTP/1.1" 404 -
+192.168.105.213 - - [17/Jan/2022 20:26:54] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 20:26:54] "GET /CH_SCI.ptx HTTP/1.1" 404 -
+192.168.105.213 - - [17/Jan/2022 20:26:56] "GET /SCI-1.html HTTP/1.1" 200 -
+192.168.105.213 - - [17/Jan/2022 20:26:56] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 20:26:56] "GET /developer.css HTTP/1.1" 404 -
+192.168.105.213 - - [17/Jan/2022 20:26:56] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 20:26:56] "GET /SCI-1.ptx HTTP/1.1" 404 -
+192.168.105.213 - - [17/Jan/2022 20:26:56] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 20:26:56] "GET /SCI-1.ptx HTTP/1.1" 404 -
+192.168.105.213 - - [17/Jan/2022 20:26:58] "GET /SCI-2.html HTTP/1.1" 200 -
+192.168.105.213 - - [17/Jan/2022 20:26:59] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 20:26:59] "GET /developer.css HTTP/1.1" 404 -
+192.168.105.213 - - [17/Jan/2022 20:26:59] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 20:26:59] "GET /SCI-2.ptx HTTP/1.1" 404 -
+192.168.105.213 - - [17/Jan/2022 20:26:59] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 20:26:59] "GET /SCI-2.ptx HTTP/1.1" 404 -
+192.168.105.213 - - [17/Jan/2022 20:27:00] "GET /MTH-1.html HTTP/1.1" 200 -
+192.168.105.213 - - [17/Jan/2022 20:27:00] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 20:27:00] "GET /developer.css HTTP/1.1" 404 -
+192.168.105.213 - - [17/Jan/2022 20:27:01] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 20:27:01] "GET /MTH-1.ptx HTTP/1.1" 404 -
+192.168.105.213 - - [17/Jan/2022 20:27:01] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 20:27:01] "GET /MTH-1.ptx HTTP/1.1" 404 -
+192.168.105.213 - - [17/Jan/2022 20:27:01] "GET /MTH-2.html HTTP/1.1" 200 -
+192.168.105.213 - - [17/Jan/2022 20:27:01] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 20:27:01] "GET /developer.css HTTP/1.1" 404 -
+192.168.105.213 - - [17/Jan/2022 20:27:01] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 20:27:01] "GET /MTH-2.ptx HTTP/1.1" 404 -
+192.168.105.213 - - [17/Jan/2022 20:27:02] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 20:27:02] "GET /MTH-2.ptx HTTP/1.1" 404 -
+
+Changes to source detected.
+
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmpgp2vhgf3
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmpgp2vhgf3
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+
+Copying successful build from /tmp/tmpgp2vhgf3 into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+
+Changes to source detected.
+
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmpcvk6s0u8
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmpcvk6s0u8
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+
+Copying successful build from /tmp/tmpcvk6s0u8 into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+
+Changes to source detected.
+
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmp113o_d9n
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmp113o_d9n
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+
+Copying successful build from /tmp/tmp113o_d9n into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+
+Changes to source detected.
+
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmp41g8qjjo
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmp41g8qjjo
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+
+Copying successful build from /tmp/tmp41g8qjjo into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+
+Changes to source detected.
+
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmp6oc17zy0
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmp6oc17zy0
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+
+Copying successful build from /tmp/tmp6oc17zy0 into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+
+Changes to source detected.
+
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmpddfwxc_0
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmpddfwxc_0
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+
+Copying successful build from /tmp/tmpddfwxc_0 into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+
+Changes to source detected.
+
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmpa574q4gy
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmpa574q4gy
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+
+Copying successful build from /tmp/tmpa574q4gy into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+192.168.105.213 - - [17/Jan/2022 20:30:16] "GET /MTH-2.html HTTP/1.1" 200 -
+192.168.105.213 - - [17/Jan/2022 20:30:16] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 20:30:16] "GET /developer.css HTTP/1.1" 404 -
+192.168.105.213 - - [17/Jan/2022 20:30:16] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 20:30:16] "GET /MTH-2.ptx HTTP/1.1" 404 -
+192.168.105.213 - - [17/Jan/2022 20:30:17] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 20:30:17] "GET /MTH-2.ptx HTTP/1.1" 404 -
+
+Changes to source detected.
+
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmpau9_9391
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmpau9_9391
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+
+Copying successful build from /tmp/tmpau9_9391 into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+
+Changes to source detected.
+
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmp42xmfz16
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmp42xmfz16
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+
+Copying successful build from /tmp/tmp42xmfz16 into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+
+Changes to source detected.
+
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmp3ucl_g1b
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmp3ucl_g1b
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+
+Copying successful build from /tmp/tmp3ucl_g1b into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+192.168.105.213 - - [17/Jan/2022 20:31:21] "GET /MTH-2.html HTTP/1.1" 200 -
+192.168.105.213 - - [17/Jan/2022 20:31:21] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 20:31:21] "GET /developer.css HTTP/1.1" 404 -
+192.168.105.213 - - [17/Jan/2022 20:31:21] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 20:31:21] "GET /MTH-2.ptx HTTP/1.1" 404 -
+192.168.105.213 - - [17/Jan/2022 20:31:23] "GET /MTH-1.html HTTP/1.1" 200 -
+192.168.105.213 - - [17/Jan/2022 20:31:24] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 20:31:24] "GET /developer.css HTTP/1.1" 404 -
+192.168.105.213 - - [17/Jan/2022 20:31:24] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 20:31:24] "GET /MTH-1.ptx HTTP/1.1" 404 -
+192.168.105.213 - - [17/Jan/2022 20:31:24] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 20:31:24] "GET /MTH-1.ptx HTTP/1.1" 404 -
+192.168.105.213 - - [17/Jan/2022 20:31:26] "GET /CH_MTH.html HTTP/1.1" 200 -
+192.168.105.213 - - [17/Jan/2022 20:31:26] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 20:31:26] "GET /developer.css HTTP/1.1" 404 -
+192.168.105.213 - - [17/Jan/2022 20:31:27] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 20:31:27] "GET /CH_MTH.ptx HTTP/1.1" 404 -
+192.168.105.213 - - [17/Jan/2022 20:31:27] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 20:31:27] "GET /CH_MTH.ptx HTTP/1.1" 404 -
+192.168.105.213 - - [17/Jan/2022 20:33:05] "GET /MTH-2.html HTTP/1.1" 200 -
+192.168.105.213 - - [17/Jan/2022 20:33:05] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 20:33:05] "GET /developer.css HTTP/1.1" 404 -
+192.168.105.213 - - [17/Jan/2022 20:33:05] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 20:33:05] "GET /MTH-2.ptx HTTP/1.1" 404 -
+192.168.105.213 - - [17/Jan/2022 20:33:06] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 20:33:06] "GET /MTH-2.ptx HTTP/1.1" 404 -
+192.168.105.213 - - [17/Jan/2022 20:33:09] "GET /MTH-1.html HTTP/1.1" 200 -
+192.168.105.213 - - [17/Jan/2022 20:33:10] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 20:33:10] "GET /developer.css HTTP/1.1" 404 -
+192.168.105.213 - - [17/Jan/2022 20:33:10] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 20:33:10] "GET /MTH-1.ptx HTTP/1.1" 404 -
+192.168.105.213 - - [17/Jan/2022 20:33:10] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 20:33:10] "GET /MTH-1.ptx HTTP/1.1" 404 -
+
+Changes to source detected.
+
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmp65i63cws
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmp65i63cws
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+
+Copying successful build from /tmp/tmp65i63cws into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+
+Changes to source detected.
+
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmpnj9bp8c8
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmpnj9bp8c8
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+
+Copying successful build from /tmp/tmpnj9bp8c8 into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+
+Changes to source detected.
+
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmpn29mn3xj
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmpn29mn3xj
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+
+Copying successful build from /tmp/tmpn29mn3xj into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+
+Changes to source detected.
+
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmpp58kjxun
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmpp58kjxun
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+
+Copying successful build from /tmp/tmpp58kjxun into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+
+Changes to source detected.
+
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmp56yy05gf
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmp56yy05gf
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+
+Copying successful build from /tmp/tmp56yy05gf into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+192.168.105.213 - - [17/Jan/2022 20:38:49] "GET /MTH-1.html HTTP/1.1" 200 -
+192.168.105.213 - - [17/Jan/2022 20:38:49] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 20:38:49] "GET /developer.css HTTP/1.1" 404 -
+192.168.105.213 - - [17/Jan/2022 20:38:49] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 20:38:49] "GET /MTH-1.ptx HTTP/1.1" 404 -
+192.168.105.213 - - [17/Jan/2022 20:38:49] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 20:38:49] "GET /MTH-1.ptx HTTP/1.1" 404 -
+192.168.105.213 - - [17/Jan/2022 20:38:51] "GET /MTH-2.html HTTP/1.1" 200 -
+192.168.105.213 - - [17/Jan/2022 20:38:51] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 20:38:51] "GET /developer.css HTTP/1.1" 404 -
+192.168.105.213 - - [17/Jan/2022 20:38:51] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 20:38:51] "GET /MTH-2.ptx HTTP/1.1" 404 -
+192.168.105.213 - - [17/Jan/2022 20:38:51] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 20:38:51] "GET /MTH-2.ptx HTTP/1.1" 404 -
+
+Changes to source detected.
+
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmpq7f4rtjn
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmpq7f4rtjn
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+
+Copying successful build from /tmp/tmpq7f4rtjn into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+
+Changes to source detected.
+
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmp04sr95uo
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmp04sr95uo
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+
+Copying successful build from /tmp/tmp04sr95uo into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+
+Changes to source detected.
+
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmph9ulpa6s
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmph9ulpa6s
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+
+Copying successful build from /tmp/tmph9ulpa6s into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+
+Changes to source detected.
+
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmp48r41e6j
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmp48r41e6j
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+
+Copying successful build from /tmp/tmp48r41e6j into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+
+Changes to source detected.
+
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmpbb19_tyi
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmpbb19_tyi
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+
+Copying successful build from /tmp/tmpbb19_tyi into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+192.168.105.213 - - [17/Jan/2022 20:42:14] "GET /MTH-3.html HTTP/1.1" 200 -
+192.168.105.213 - - [17/Jan/2022 20:42:14] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 20:42:14] "GET /developer.css HTTP/1.1" 404 -
+192.168.105.213 - - [17/Jan/2022 20:42:14] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 20:42:14] "GET /MTH-3.ptx HTTP/1.1" 404 -
+192.168.105.213 - - [17/Jan/2022 20:42:15] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 20:42:15] "GET /MTH-3.ptx HTTP/1.1" 404 -
+192.168.105.213 - - [17/Jan/2022 20:42:54] "GET /MTH-1.html HTTP/1.1" 200 -
+192.168.105.213 - - [17/Jan/2022 20:42:54] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 20:42:54] "GET /developer.css HTTP/1.1" 404 -
+192.168.105.213 - - [17/Jan/2022 20:42:54] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 20:42:54] "GET /MTH-1.ptx HTTP/1.1" 404 -
+192.168.105.213 - - [17/Jan/2022 20:42:54] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 20:42:54] "GET /MTH-1.ptx HTTP/1.1" 404 -
+
+Changes to source detected.
+
+[31merror: [0mXML Syntax Error with instance of xinclude; see error_syntax.log. Quitting...
+
+Changes to source detected.
+
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmpsoz4ws0a
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmpsoz4ws0a
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+
+Copying successful build from /tmp/tmpsoz4ws0a into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+
+Changes to source detected.
+
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmpekz0mlbd
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmpekz0mlbd
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+
+Copying successful build from /tmp/tmpekz0mlbd into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+
+Changes to source detected.
+
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmpiajdz7r6
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmpiajdz7r6
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+
+Copying successful build from /tmp/tmpiajdz7r6 into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+
+Changes to source detected.
+
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmpl8rilex1
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmpl8rilex1
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+
+Copying successful build from /tmp/tmpl8rilex1 into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+
+Changes to source detected.
+
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmp1vq8ftju
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmp1vq8ftju
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+
+Copying successful build from /tmp/tmp1vq8ftju into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+
+Changes to source detected.
+
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmp8ew0uit9
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmp8ew0uit9
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+
+Copying successful build from /tmp/tmp8ew0uit9 into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+192.168.105.213 - - [17/Jan/2022 20:45:43] "GET /MTH-1.html HTTP/1.1" 200 -
+192.168.105.213 - - [17/Jan/2022 20:45:43] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 20:45:43] "GET /developer.css HTTP/1.1" 404 -
+192.168.105.213 - - [17/Jan/2022 20:45:43] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 20:45:43] "GET /MTH-1.ptx HTTP/1.1" 404 -
+192.168.105.213 - - [17/Jan/2022 20:45:43] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 20:45:43] "GET /MTH-1.ptx HTTP/1.1" 404 -
+
+Changes to source detected.
+
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmp9ej6uxz7
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmp9ej6uxz7
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+
+Copying successful build from /tmp/tmp9ej6uxz7 into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+
+Changes to source detected.
+
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmpj166qho3
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmpj166qho3
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+PTX: Successful application of /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl, but with messages:
+    *  MBX:WARNING: A section containing subsections needs to have other content inside an <introduction> and/or  <conclusion>.
+    *               located within: "sec_firstch-examples" (xml:id), "Core Values in Practice" (title)
+
+Copying successful build from /tmp/tmpj166qho3 into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+
+Changes to source detected.
+
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmpbp01jjmj
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmpbp01jjmj
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+PTX: Successful application of /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl, but with messages:
+    *  MBX:WARNING: A section containing subsections needs to have other content inside an <introduction> and/or  <conclusion>.
+    *               located within: "sec_firstch-examples" (xml:id), "Core Values in Practice" (title)
+
+Copying successful build from /tmp/tmpbp01jjmj into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+
+Changes to source detected.
+
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmplohteqbz
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmplohteqbz
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+PTX: Successful application of /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl, but with messages:
+    *  MBX:WARNING: A section containing subsections needs to have other content inside an <introduction> and/or  <conclusion>.
+    *               located within: "sec_firstch-examples" (xml:id), "Core Values in Practice" (title)
+
+Copying successful build from /tmp/tmplohteqbz into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+
+Changes to source detected.
+
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmpdhe5_qe2
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmpdhe5_qe2
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+PTX: Successful application of /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl, but with messages:
+    *  MBX:WARNING: A section containing subsections needs to have other content inside an <introduction> and/or  <conclusion>.
+    *               located within: "sec_firstch-examples" (xml:id), "Core Values in Practice" (title)
+
+Copying successful build from /tmp/tmpdhe5_qe2 into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+192.168.105.213 - - [17/Jan/2022 20:49:07] "GET /MTH-1.html HTTP/1.1" 200 -
+192.168.105.213 - - [17/Jan/2022 20:49:07] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 20:49:07] "GET /developer.css HTTP/1.1" 404 -
+192.168.105.213 - - [17/Jan/2022 20:49:07] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 20:49:07] "GET /MTH-1.ptx HTTP/1.1" 404 -
+192.168.105.213 - - [17/Jan/2022 20:49:07] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 20:49:07] "GET /MTH-1.ptx HTTP/1.1" 404 -
+192.168.105.213 - - [17/Jan/2022 20:49:09] "GET /sec_firstch-examples.html HTTP/1.1" 200 -
+192.168.105.213 - - [17/Jan/2022 20:49:09] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 20:49:09] "GET /developer.css HTTP/1.1" 404 -
+192.168.105.213 - - [17/Jan/2022 20:49:09] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 20:49:09] "GET /sec_firstch-examples.ptx HTTP/1.1" 404 -
+192.168.105.213 - - [17/Jan/2022 20:49:09] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 20:49:09] "GET /sec_firstch-examples.ptx HTTP/1.1" 404 -
+
+Changes to source detected.
+
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmpdafe3z5b
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmpdafe3z5b
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+PTX: Successful application of /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl, but with messages:
+    *  MBX:WARNING: A section containing subsections needs to have other content inside an <introduction> and/or  <conclusion>.
+    *               located within: "sec_firstch-examples" (xml:id), "Core Values in Practice" (title)
+
+Copying successful build from /tmp/tmpdafe3z5b into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+
+Changes to source detected.
+
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmpr3o31zgj
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmpr3o31zgj
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+PTX: Successful application of /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl, but with messages:
+    *  MBX:WARNING: A section containing subsections needs to have other content inside an <introduction> and/or  <conclusion>.
+    *               located within: "sec_firstch-examples" (xml:id), "Core Values in Practice" (title)
+
+Copying successful build from /tmp/tmpr3o31zgj into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+192.168.105.213 - - [17/Jan/2022 20:50:11] "GET /sec_firstch-examples.html HTTP/1.1" 200 -
+192.168.105.213 - - [17/Jan/2022 20:50:12] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 20:50:12] "GET /developer.css HTTP/1.1" 404 -
+192.168.105.213 - - [17/Jan/2022 20:50:12] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 20:50:12] "GET /sec_firstch-examples.ptx HTTP/1.1" 404 -
+192.168.105.213 - - [17/Jan/2022 20:50:12] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 20:50:12] "GET /sec_firstch-examples.ptx HTTP/1.1" 404 -
+
+Changes to source detected.
+
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmp3v75zr2s
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmp3v75zr2s
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+PTX: Successful application of /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl, but with messages:
+    *  MBX:WARNING: A section containing subsections needs to have other content inside an <introduction> and/or  <conclusion>.
+    *               located within: "sec_firstch-examples" (xml:id), "Core Values in Practice" (title)
+    *  PTX:ERROR:   a cross-reference ("xref") uses references [thm-example-theorem] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+    *               located within: "sec_firstch-examples" (xml:id), "Core Values in Practice" (title)
+    *  PTX:ERROR:   a cross-reference ("xref") uses references [thm-example-theorem] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+    *               located within: "sec_firstch-examples" (xml:id), "Core Values in Practice" (title)
+
+Copying successful build from /tmp/tmp3v75zr2s into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+
+Changes to source detected.
+
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmpiujr4g07
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmpiujr4g07
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+PTX: Successful application of /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl, but with messages:
+    *  MBX:WARNING: A section containing subsections needs to have other content inside an <introduction> and/or  <conclusion>.
+    *               located within: "sec_firstch-examples" (xml:id), "Core Values in Practice" (title)
+    *  PTX:ERROR:   a cross-reference ("xref") uses references [thm-example-theorem] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+    *               located within: "sec_firstch-examples" (xml:id), "Core Values in Practice" (title)
+    *  PTX:ERROR:   a cross-reference ("xref") uses references [thm-example-theorem] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+    *               located within: "sec_firstch-examples" (xml:id), "Core Values in Practice" (title)
+
+Copying successful build from /tmp/tmpiujr4g07 into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+
+Changes to source detected.
+
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmpmj0subpn
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmpmj0subpn
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+PTX: Successful application of /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl, but with messages:
+    *  MBX:WARNING: A section containing subsections needs to have other content inside an <introduction> and/or  <conclusion>.
+    *               located within: "sec_firstch-examples" (xml:id), "Core Values in Practice" (title)
+    *  PTX:ERROR:   a cross-reference ("xref") uses references [thm-example-theorem] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+    *               located within: "sec_firstch-examples" (xml:id), "Core Values in Practice" (title)
+    *  PTX:ERROR:   a cross-reference ("xref") uses references [thm-example-theorem] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+    *               located within: "sec_firstch-examples" (xml:id), "Core Values in Practice" (title)
+
+Copying successful build from /tmp/tmpmj0subpn into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+192.168.105.213 - - [17/Jan/2022 20:51:34] "GET /sec_firstch-examples.html HTTP/1.1" 200 -
+192.168.105.213 - - [17/Jan/2022 20:51:34] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 20:51:34] "GET /developer.css HTTP/1.1" 404 -
+192.168.105.213 - - [17/Jan/2022 20:51:34] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 20:51:34] "GET /sec_firstch-examples.ptx HTTP/1.1" 404 -
+192.168.105.213 - - [17/Jan/2022 20:51:35] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 20:51:35] "GET /sec_firstch-examples.ptx HTTP/1.1" 404 -
+
+Changes to source detected.
+
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmpxe1y7ora
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmpxe1y7ora
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+PTX: Successful application of /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl, but with messages:
+    *  MBX:WARNING: A section containing subsections needs to have other content inside an <introduction> and/or  <conclusion>.
+    *               located within: "sec_firstch-examples" (xml:id), "Core Values in Practice" (title)
+    *  PTX:ERROR:   a cross-reference ("xref") uses references [thm-example-theorem] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+    *               located within: "sec_firstch-examples" (xml:id), "Core Values in Practice" (title)
+    *  PTX:ERROR:   a cross-reference ("xref") uses references [thm-example-theorem] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+    *               located within: "sec_firstch-examples" (xml:id), "Core Values in Practice" (title)
+
+Copying successful build from /tmp/tmpxe1y7ora into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+
+Changes to source detected.
+
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmpwr3xycch
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmpwr3xycch
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+PTX: Successful application of /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl, but with messages:
+    *  MBX:WARNING: A section containing subsections needs to have other content inside an <introduction> and/or  <conclusion>.
+    *               located within: "sec_firstch-examples" (xml:id), "Core Values in Practice" (title)
+    *  PTX:ERROR:   a cross-reference ("xref") uses references [thm-example-theorem] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+    *               located within: "sec_firstch-examples" (xml:id), "Core Values in Practice" (title)
+    *  PTX:ERROR:   a cross-reference ("xref") uses references [thm-example-theorem] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+    *               located within: "sec_firstch-examples" (xml:id), "Core Values in Practice" (title)
+
+Copying successful build from /tmp/tmpwr3xycch into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+
+Changes to source detected.
+
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmp3f4ti9pn
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmp3f4ti9pn
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+PTX: Successful application of /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl, but with messages:
+    *  MBX:WARNING: A section containing subsections needs to have other content inside an <introduction> and/or  <conclusion>.
+    *               located within: "sec_firstch-examples" (xml:id), "Core Values in Practice" (title)
+    *  PTX:ERROR:   a cross-reference ("xref") uses references [thm-example-theorem] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+    *               located within: "sec_firstch-examples" (xml:id), "Core Values in Practice" (title)
+    *  PTX:ERROR:   a cross-reference ("xref") uses references [thm-example-theorem] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+    *               located within: "sec_firstch-examples" (xml:id), "Core Values in Practice" (title)
+
+Copying successful build from /tmp/tmp3f4ti9pn into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+192.168.142.158 - - [17/Jan/2022 20:54:34] "GET /sec_firstch-examples.html HTTP/1.1" 200 -
+192.168.142.158 - - [17/Jan/2022 20:54:34] code 404, message File not found
+192.168.142.158 - - [17/Jan/2022 20:54:34] "GET /developer.css HTTP/1.1" 404 -
+192.168.142.158 - - [17/Jan/2022 20:54:35] code 404, message File not found
+192.168.142.158 - - [17/Jan/2022 20:54:35] "GET /sec_firstch-examples.ptx HTTP/1.1" 404 -
+192.168.142.158 - - [17/Jan/2022 20:54:35] code 404, message File not found
+192.168.142.158 - - [17/Jan/2022 20:54:35] "GET /sec_firstch-examples.ptx HTTP/1.1" 404 -
+
+Changes to source detected.
+
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmpur4zne58
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmpur4zne58
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+PTX: Successful application of /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl, but with messages:
+    *  MBX:WARNING: A section containing subsections needs to have other content inside an <introduction> and/or  <conclusion>.
+    *               located within: "sec_firstch-examples" (xml:id), "Core Values in Practice" (title)
+    *  PTX:ERROR:   a cross-reference ("xref") uses references [thm-example-theorem] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+    *               located within: "sec_firstch-examples" (xml:id), "Core Values in Practice" (title)
+    *  PTX:ERROR:   a cross-reference ("xref") uses references [thm-example-theorem] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+    *               located within: "sec_firstch-examples" (xml:id), "Core Values in Practice" (title)
+
+Copying successful build from /tmp/tmpur4zne58 into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+
+Changes to source detected.
+
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmpkxi6o3kx
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmpkxi6o3kx
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+PTX: Successful application of /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl, but with messages:
+    *  MBX:WARNING: A section containing subsections needs to have other content inside an <introduction> and/or  <conclusion>.
+    *               located within: "sec_firstch-examples" (xml:id), "Core Values in Practice" (title)
+    *  PTX:ERROR:   a cross-reference ("xref") uses references [thm-example-theorem] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+    *               located within: "sec_firstch-examples" (xml:id), "Core Values in Practice" (title)
+    *  PTX:ERROR:   a cross-reference ("xref") uses references [thm-example-theorem] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+    *               located within: "sec_firstch-examples" (xml:id), "Core Values in Practice" (title)
+
+Copying successful build from /tmp/tmpkxi6o3kx into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+
+Changes to source detected.
+
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmp2q_k43xx
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmp2q_k43xx
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+PTX: Successful application of /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl, but with messages:
+    *  MBX:WARNING: A section containing subsections needs to have other content inside an <introduction> and/or  <conclusion>.
+    *               located within: "sec_firstch-examples" (xml:id), "Core Values in Practice" (title)
+    *  PTX:ERROR:   a cross-reference ("xref") uses references [thm-example-theorem] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+    *               located within: "sec_firstch-examples" (xml:id), "Core Values in Practice" (title)
+    *  PTX:ERROR:   a cross-reference ("xref") uses references [thm-example-theorem] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+    *               located within: "sec_firstch-examples" (xml:id), "Core Values in Practice" (title)
+
+Copying successful build from /tmp/tmp2q_k43xx into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+
+Changes to source detected.
+
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmpzrxdo9xv
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmpzrxdo9xv
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+PTX: Successful application of /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl, but with messages:
+    *  MBX:WARNING: A section containing subsections needs to have other content inside an <introduction> and/or  <conclusion>.
+    *               located within: "sec_firstch-examples" (xml:id), "Core Values in Practice" (title)
+    *  PTX:ERROR:   a cross-reference ("xref") uses references [thm-example-theorem] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+    *               located within: "sec_firstch-examples" (xml:id), "Core Values in Practice" (title)
+    *  PTX:ERROR:   a cross-reference ("xref") uses references [thm-example-theorem] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+    *               located within: "sec_firstch-examples" (xml:id), "Core Values in Practice" (title)
+
+Copying successful build from /tmp/tmpzrxdo9xv into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+192.168.142.158 - - [17/Jan/2022 20:59:06] "GET /sec_firstch-examples.html HTTP/1.1" 200 -
+192.168.142.158 - - [17/Jan/2022 20:59:06] code 404, message File not found
+192.168.142.158 - - [17/Jan/2022 20:59:06] "GET /developer.css HTTP/1.1" 404 -
+192.168.142.158 - - [17/Jan/2022 20:59:06] code 404, message File not found
+192.168.142.158 - - [17/Jan/2022 20:59:06] "GET /sec_firstch-examples.ptx HTTP/1.1" 404 -
+192.168.142.158 - - [17/Jan/2022 20:59:07] code 404, message File not found
+192.168.142.158 - - [17/Jan/2022 20:59:07] "GET /sec_firstch-examples.ptx HTTP/1.1" 404 -
+
+Changes to source detected.
+
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmp9zzsp7nt
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmp9zzsp7nt
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+PTX: Successful application of /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl, but with messages:
+    *  MBX:WARNING: A section containing subsections needs to have other content inside an <introduction> and/or  <conclusion>.
+    *               located within: "sec_firstch-examples" (xml:id), "Core Values in Practice" (title)
+    *  PTX:ERROR:   a cross-reference ("xref") uses references [thm-example-theorem] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+    *               located within: "sec_firstch-examples" (xml:id), "Core Values in Practice" (title)
+    *  PTX:ERROR:   a cross-reference ("xref") uses references [thm-example-theorem] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+    *               located within: "sec_firstch-examples" (xml:id), "Core Values in Practice" (title)
+
+Copying successful build from /tmp/tmp9zzsp7nt into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+192.168.142.158 - - [17/Jan/2022 21:00:03] "GET /sec_firstch-examples.html HTTP/1.1" 200 -
+192.168.142.158 - - [17/Jan/2022 21:00:04] code 404, message File not found
+192.168.142.158 - - [17/Jan/2022 21:00:04] "GET /developer.css HTTP/1.1" 404 -
+192.168.142.158 - - [17/Jan/2022 21:00:04] code 404, message File not found
+192.168.142.158 - - [17/Jan/2022 21:00:04] "GET /sec_firstch-examples.ptx HTTP/1.1" 404 -
+192.168.142.158 - - [17/Jan/2022 21:00:04] code 404, message File not found
+192.168.142.158 - - [17/Jan/2022 21:00:04] "GET /sec_firstch-examples.ptx HTTP/1.1" 404 -
+
+Changes to source detected.
+
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmp3gc727e9
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmp3gc727e9
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+PTX: Successful application of /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl, but with messages:
+    *  MBX:WARNING: A section containing subsections needs to have other content inside an <introduction> and/or  <conclusion>.
+    *               located within: "sec_firstch-examples" (xml:id), "Core Values in Practice" (title)
+    *  PTX:ERROR:   a cross-reference ("xref") uses references [thm-example-theorem] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+    *               located within: "sec_firstch-examples" (xml:id), "Core Values in Practice" (title)
+    *  PTX:ERROR:   a cross-reference ("xref") uses references [thm-example-theorem] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+    *               located within: "sec_firstch-examples" (xml:id), "Core Values in Practice" (title)
+
+Copying successful build from /tmp/tmp3gc727e9 into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+192.168.142.158 - - [17/Jan/2022 21:00:27] "GET /sec_firstch-examples.html HTTP/1.1" 200 -
+192.168.142.158 - - [17/Jan/2022 21:00:27] code 404, message File not found
+192.168.142.158 - - [17/Jan/2022 21:00:27] "GET /developer.css HTTP/1.1" 404 -
+192.168.142.158 - - [17/Jan/2022 21:00:27] code 404, message File not found
+192.168.142.158 - - [17/Jan/2022 21:00:27] "GET /sec_firstch-examples.ptx HTTP/1.1" 404 -
+192.168.142.158 - - [17/Jan/2022 21:00:27] code 404, message File not found
+192.168.142.158 - - [17/Jan/2022 21:00:27] "GET /sec_firstch-examples.ptx HTTP/1.1" 404 -
+
+Changes to source detected.
+
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmptgoe8znh
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmptgoe8znh
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+PTX: Successful application of /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl, but with messages:
+    *  MBX:WARNING: A section containing subsections needs to have other content inside an <introduction> and/or  <conclusion>.
+    *               located within: "sec_firstch-examples" (xml:id), "Core Values in Practice" (title)
+    *  PTX:ERROR:   a cross-reference ("xref") uses references [thm-example-theorem] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+    *               located within: "sec_firstch-examples" (xml:id), "Core Values in Practice" (title)
+    *  PTX:ERROR:   a cross-reference ("xref") uses references [thm-example-theorem] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+    *               located within: "sec_firstch-examples" (xml:id), "Core Values in Practice" (title)
+
+Copying successful build from /tmp/tmptgoe8znh into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+
+Changes to source detected.
+
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmp9d1b68xh
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmp9d1b68xh
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+PTX: Successful application of /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl, but with messages:
+    *  MBX:WARNING: A section containing subsections needs to have other content inside an <introduction> and/or  <conclusion>.
+    *               located within: "sec_firstch-examples" (xml:id), "Core Values in Practice" (title)
+    *  PTX:ERROR:   a cross-reference ("xref") uses references [thm-example-theorem] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+    *               located within: "sec_firstch-examples" (xml:id), "Core Values in Practice" (title)
+    *  PTX:ERROR:   a cross-reference ("xref") uses references [thm-example-theorem] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+    *               located within: "sec_firstch-examples" (xml:id), "Core Values in Practice" (title)
+
+Copying successful build from /tmp/tmp9d1b68xh into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+192.168.142.158 - - [17/Jan/2022 21:01:35] "GET /sec_firstch-examples.html HTTP/1.1" 200 -
+192.168.142.158 - - [17/Jan/2022 21:01:36] code 404, message File not found
+192.168.142.158 - - [17/Jan/2022 21:01:36] "GET /developer.css HTTP/1.1" 404 -
+192.168.142.158 - - [17/Jan/2022 21:01:36] code 404, message File not found
+192.168.142.158 - - [17/Jan/2022 21:01:36] "GET /sec_firstch-examples.ptx HTTP/1.1" 404 -
+192.168.142.158 - - [17/Jan/2022 21:01:36] code 404, message File not found
+192.168.142.158 - - [17/Jan/2022 21:01:36] "GET /sec_firstch-examples.ptx HTTP/1.1" 404 -
+192.168.142.158 - - [17/Jan/2022 21:01:41] "GET /ch-first.html HTTP/1.1" 200 -
+192.168.142.158 - - [17/Jan/2022 21:01:41] code 404, message File not found
+192.168.142.158 - - [17/Jan/2022 21:01:41] "GET /developer.css HTTP/1.1" 404 -
+192.168.142.158 - - [17/Jan/2022 21:01:41] code 404, message File not found
+192.168.142.158 - - [17/Jan/2022 21:01:41] "GET /ch-first.ptx HTTP/1.1" 404 -
+192.168.142.158 - - [17/Jan/2022 21:01:41] code 404, message File not found
+192.168.142.158 - - [17/Jan/2022 21:01:41] "GET /ch-first.ptx HTTP/1.1" 404 -
+192.168.142.158 - - [17/Jan/2022 21:01:43] "GET /sec_firstch-intro.html HTTP/1.1" 200 -
+192.168.142.158 - - [17/Jan/2022 21:01:44] code 404, message File not found
+192.168.142.158 - - [17/Jan/2022 21:01:44] "GET /developer.css HTTP/1.1" 404 -
+192.168.142.158 - - [17/Jan/2022 21:01:44] code 404, message File not found
+192.168.142.158 - - [17/Jan/2022 21:01:44] "GET /sec_firstch-intro.ptx HTTP/1.1" 404 -
+192.168.142.158 - - [17/Jan/2022 21:01:44] code 404, message File not found
+192.168.142.158 - - [17/Jan/2022 21:01:44] "GET /sec_firstch-intro.ptx HTTP/1.1" 404 -
+
+Changes to source detected.
+
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmp9ovr6pvo
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmp9ovr6pvo
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+PTX: Successful application of /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl, but with messages:
+    *  PTX:ERROR:   the identifier "MTH-1" is repeated 2 times (and this message also repeats)
+    *  PTX:ERROR:   the identifier "MTH-1" is repeated 2 times (and this message also repeats)
+    *  PTX:ERROR:   the identifier "MTH-2" is repeated 2 times (and this message also repeats)
+    *  PTX:ERROR:   the identifier "MTH-2" is repeated 2 times (and this message also repeats)
+    *  MBX:WARNING: A section containing subsections needs to have other content inside an <introduction> and/or  <conclusion>.
+    *               located within: "sec_firstch-examples" (xml:id), "Core Values in Practice" (title)
+    *  PTX:ERROR:   a cross-reference ("xref") uses references [thm-example-theorem] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+    *               located within: "sec_firstch-examples" (xml:id), "Core Values in Practice" (title)
+    *  PTX:ERROR:   a cross-reference ("xref") uses references [thm-example-theorem] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+    *               located within: "sec_firstch-examples" (xml:id), "Core Values in Practice" (title)
+
+Copying successful build from /tmp/tmp9ovr6pvo into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+192.168.142.158 - - [17/Jan/2022 21:02:58] "GET /sec_firstch-intro.html HTTP/1.1" 200 -
+192.168.142.158 - - [17/Jan/2022 21:02:58] code 404, message File not found
+192.168.142.158 - - [17/Jan/2022 21:02:58] "GET /developer.css HTTP/1.1" 404 -
+192.168.142.158 - - [17/Jan/2022 21:02:58] code 404, message File not found
+192.168.142.158 - - [17/Jan/2022 21:02:58] "GET /sec_firstch-intro.ptx HTTP/1.1" 404 -
+192.168.142.158 - - [17/Jan/2022 21:02:59] code 404, message File not found
+192.168.142.158 - - [17/Jan/2022 21:02:59] "GET /sec_firstch-intro.ptx HTTP/1.1" 404 -
+
+Changes to source detected.
+
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmpm4odf3u7
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmpm4odf3u7
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+PTX: Successful application of /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl, but with messages:
+    *  PTX:ERROR:   the identifier "MTH-1" is repeated 2 times (and this message also repeats)
+    *  PTX:ERROR:   the identifier "MTH-1" is repeated 2 times (and this message also repeats)
+    *  PTX:ERROR:   the identifier "MTH-2" is repeated 2 times (and this message also repeats)
+    *  PTX:ERROR:   the identifier "MTH-2" is repeated 2 times (and this message also repeats)
+    *  PTX:ERROR:   the identifier "MTH-3" is repeated 2 times (and this message also repeats)
+    *  PTX:ERROR:   the identifier "MTH-3" is repeated 2 times (and this message also repeats)
+    *  PTX:ERROR:   the identifier "MTH-4" is repeated 2 times (and this message also repeats)
+    *  PTX:ERROR:   the identifier "MTH-4" is repeated 2 times (and this message also repeats)
+    *  MBX:WARNING: A section containing subsections needs to have other content inside an <introduction> and/or  <conclusion>.
+    *               located within: "sec_firstch-examples" (xml:id), "Core Values in Practice" (title)
+    *  PTX:ERROR:   a cross-reference ("xref") uses references [thm-example-theorem] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+    *               located within: "sec_firstch-examples" (xml:id), "Core Values in Practice" (title)
+    *  PTX:ERROR:   a cross-reference ("xref") uses references [thm-example-theorem] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+    *               located within: "sec_firstch-examples" (xml:id), "Core Values in Practice" (title)
+
+Copying successful build from /tmp/tmpm4odf3u7 into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+192.168.142.158 - - [17/Jan/2022 21:04:16] "GET /sec_firstch-intro.html HTTP/1.1" 200 -
+192.168.142.158 - - [17/Jan/2022 21:04:17] code 404, message File not found
+192.168.142.158 - - [17/Jan/2022 21:04:17] "GET /developer.css HTTP/1.1" 404 -
+192.168.142.158 - - [17/Jan/2022 21:04:17] code 404, message File not found
+192.168.142.158 - - [17/Jan/2022 21:04:17] "GET /sec_firstch-intro.ptx HTTP/1.1" 404 -
+192.168.142.158 - - [17/Jan/2022 21:04:17] code 404, message File not found
+192.168.142.158 - - [17/Jan/2022 21:04:17] "GET /sec_firstch-intro.ptx HTTP/1.1" 404 -
+
+Changes to source detected.
+
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmpttfhv6fo
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmpttfhv6fo
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+PTX: Successful application of /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl, but with messages:
+    *  PTX:ERROR:   the identifier "MTH-1" is repeated 2 times (and this message also repeats)
+    *  PTX:ERROR:   the identifier "MTH-1" is repeated 2 times (and this message also repeats)
+    *  PTX:ERROR:   the identifier "MTH-2" is repeated 2 times (and this message also repeats)
+    *  PTX:ERROR:   the identifier "MTH-2" is repeated 2 times (and this message also repeats)
+    *  PTX:ERROR:   the identifier "MTH-3" is repeated 2 times (and this message also repeats)
+    *  PTX:ERROR:   the identifier "MTH-3" is repeated 2 times (and this message also repeats)
+    *  PTX:ERROR:   the identifier "MTH-4" is repeated 2 times (and this message also repeats)
+    *  PTX:ERROR:   the identifier "MTH-4" is repeated 2 times (and this message also repeats)
+    *  MBX:WARNING: A section containing subsections needs to have other content inside an <introduction> and/or  <conclusion>.
+    *               located within: "sec_firstch-examples" (xml:id), "Core Values in Practice" (title)
+    *  PTX:ERROR:   a cross-reference ("xref") uses references [thm-example-theorem] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+    *               located within: "sec_firstch-examples" (xml:id), "Core Values in Practice" (title)
+    *  PTX:ERROR:   a cross-reference ("xref") uses references [thm-example-theorem] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+    *               located within: "sec_firstch-examples" (xml:id), "Core Values in Practice" (title)
+
+Copying successful build from /tmp/tmpttfhv6fo into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+
+Changes to source detected.
+
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmpkkzh1ucy
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmpkkzh1ucy
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+PTX: Successful application of /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl, but with messages:
+    *  PTX:ERROR:   the identifier "MTH-1" is repeated 2 times (and this message also repeats)
+    *  PTX:ERROR:   the identifier "MTH-1" is repeated 2 times (and this message also repeats)
+    *  PTX:ERROR:   the identifier "MTH-2" is repeated 2 times (and this message also repeats)
+    *  PTX:ERROR:   the identifier "MTH-2" is repeated 2 times (and this message also repeats)
+    *  PTX:ERROR:   the identifier "MTH-3" is repeated 2 times (and this message also repeats)
+    *  PTX:ERROR:   the identifier "MTH-3" is repeated 2 times (and this message also repeats)
+    *  PTX:ERROR:   the identifier "MTH-4" is repeated 2 times (and this message also repeats)
+    *  PTX:ERROR:   the identifier "MTH-4" is repeated 2 times (and this message also repeats)
+    *  MBX:WARNING: A section containing subsections needs to have other content inside an <introduction> and/or  <conclusion>.
+    *               located within: "sec_firstch-examples" (xml:id), "Core Values in Practice" (title)
+    *  PTX:ERROR:   a cross-reference ("xref") uses references [thm-example-theorem] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+    *               located within: "sec_firstch-examples" (xml:id), "Core Values in Practice" (title)
+    *  PTX:ERROR:   a cross-reference ("xref") uses references [thm-example-theorem] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+    *               located within: "sec_firstch-examples" (xml:id), "Core Values in Practice" (title)
+
+Copying successful build from /tmp/tmpkkzh1ucy into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+192.168.142.158 - - [17/Jan/2022 21:05:29] "GET /sec_firstch-intro.html HTTP/1.1" 200 -
+192.168.142.158 - - [17/Jan/2022 21:05:29] code 404, message File not found
+192.168.142.158 - - [17/Jan/2022 21:05:29] "GET /developer.css HTTP/1.1" 404 -
+192.168.142.158 - - [17/Jan/2022 21:05:29] code 404, message File not found
+192.168.142.158 - - [17/Jan/2022 21:05:29] "GET /sec_firstch-intro.ptx HTTP/1.1" 404 -
+192.168.142.158 - - [17/Jan/2022 21:05:29] code 404, message File not found
+192.168.142.158 - - [17/Jan/2022 21:05:29] "GET /sec_firstch-intro.ptx HTTP/1.1" 404 -
+^C
