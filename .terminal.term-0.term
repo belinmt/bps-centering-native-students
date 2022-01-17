@@ -1,0 +1,72 @@
+]0;~/new-pretext-project[01;34m~/new-pretext-project[00m$ pretext build html
+PreTeXt project found in `/home/user/new-pretext-project`.
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmppvkungq4
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmppvkungq4
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+
+Copying successful build from /tmp/tmppvkungq4 into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+]0;~/new-pretext-project[01;34m~/new-pretext-project[00m$ pretex[Kxt view html
+PreTeXt project found in `/home/user/new-pretext-project`.
+Now starting a server to preview directory `/home/user/new-pretext-project/output/html`.
+
+Server started at https://cocalc.com/a2bb9f6c-fe4b-4560-8f02-03ea76bcd282/server/8000/
+
+Use [Ctrl]+[C] to halt the server.
+
+192.168.105.213 - - [17/Jan/2022 19:02:37] "GET / HTTP/1.1" 200 -
+192.168.105.213 - - [17/Jan/2022 19:02:37] "GET /frontmatter.html HTTP/1.1" 200 -
+192.168.105.213 - - [17/Jan/2022 19:02:37] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 19:02:37] "GET /developer.css HTTP/1.1" 404 -
+192.168.105.213 - - [17/Jan/2022 19:02:38] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 19:02:38] "GET /frontmatter.ptx HTTP/1.1" 404 -
+192.168.105.213 - - [17/Jan/2022 19:02:38] code 404, message File not found
+192.168.105.213 - - [17/Jan/2022 19:02:38] "GET /frontmatter.ptx HTTP/1.1" 404 -
+^C
+Closing server...
+]0;~/new-pretext-project[01;34m~/new-pretext-project[00m$ git init
+Initialized empty Git repository in /home/user/new-pretext-project/.git/
+]0;~/new-pretext-project[01;34m~/new-pretext-project[00m$ git config --global user.email "belinmt@gmail.com"
+]0;~/new-pretext-project[01;34m~/new-pretext-project[00m$ git config -- global user.nmate "belinmt"
+error: key does not contain a section: global
+]0;~/new-pretext-project[01;34m~/new-pretext-project[00m$ git config -- global user.nmate "belinmt"[1P "belinmt"[1P "belinmt"[1P "belinmt"[1P "belinmt"a "belinmt"m "belinmt"e "belinmt"[1P
+]0;~/new-pretext-project[01;34m~/new-pretext-project[00m$ git commit -m "initial commit"
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.2022-01-17-114746.term-0.term[m
+	[31m.gitignore[m
+	[31m.terminal.term-0.term[m
+	[31mREADME.md[m
+	[31massets/[m
+	[31mproject.ptx[m
+	[31mpublication/[m
+	[31msource/[m
+	[31mterminal.term[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;~/new-pretext-project[01;34m~/new-pretext-project[00m$ [K]0;~/new-pretext-project[01;34m~/new-pretext-project[00m$ git remote add origin https://github.com/belinmt/bps-centering-native-students.git
+]0;~/new-pretext-project[01;34m~/new-pretext-project[00m$ git branch -M main
+error: refname refs/heads/master not found
+fatal: Branch rename failed
+]0;~/new-pretext-project[01;34m~/new-pretext-project[00m$ git push -u origin main
+error: src refspec main does not match any
+[31merror: failed to push some refs to 'https://github.com/belinmt/bps-centering-native-students.git'
+[m]0;~/new-pretext-project[01;34m~/new-pretext-project[00m$ rm -rf .git
+]0;~/new-pretext-project[01;34m~/new-pretext-project[00m$ i[Kgit init
+Initialized empty Git repository in /home/user/new-pretext-project/.git/
+]0;~/new-pretext-project[01;34m~/new-pretext-project[00m$ g
