@@ -15,7 +15,7 @@
   <book xml:id="my-great-book">
     <!-- The book needs a title and can have a subtitle  -->
     <title>Bernalillo Public Schools</title>
-    <subtitle>Centering Native Students</subtitle>
+    <subtitle>Centering Native Students (In Development- DO NOT SHARE)</subtitle>
 
     <!-- Now we include files containing each main devision.       -->
 

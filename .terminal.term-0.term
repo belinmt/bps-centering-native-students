@@ -2371,3 +2371,99 @@ Success! Run `pretext view html` to see the results.
 192.168.142.158 - - [17/Jan/2022 21:05:29] code 404, message File not found
 192.168.142.158 - - [17/Jan/2022 21:05:29] "GET /sec_firstch-intro.ptx HTTP/1.1" 404 -
 ^C
+Closing server...
+]0;~/new-pretext-project[01;34m~/new-pretext-project[00m$ pretext view -w[2Pbuild
+PreTeXt project found in `/home/user/new-pretext-project`.
+Since no build target was supplied, the first target of the project.ptx manifest will be built.
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmpkoojt23o
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmpkoojt23o
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+PTX: Successful application of /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl, but with messages:
+    *  PTX:ERROR:   the identifier "MTH-1" is repeated 2 times (and this message also repeats)
+    *  PTX:ERROR:   the identifier "MTH-1" is repeated 2 times (and this message also repeats)
+    *  PTX:ERROR:   the identifier "MTH-2" is repeated 2 times (and this message also repeats)
+    *  PTX:ERROR:   the identifier "MTH-2" is repeated 2 times (and this message also repeats)
+    *  PTX:ERROR:   the identifier "MTH-3" is repeated 2 times (and this message also repeats)
+    *  PTX:ERROR:   the identifier "MTH-3" is repeated 2 times (and this message also repeats)
+    *  PTX:ERROR:   the identifier "MTH-4" is repeated 2 times (and this message also repeats)
+    *  PTX:ERROR:   the identifier "MTH-4" is repeated 2 times (and this message also repeats)
+    *  MBX:WARNING: A section containing subsections needs to have other content inside an <introduction> and/or  <conclusion>.
+    *               located within: "sec_firstch-examples" (xml:id), "Core Values in Practice" (title)
+    *  PTX:ERROR:   a cross-reference ("xref") uses references [thm-example-theorem] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+    *               located within: "sec_firstch-examples" (xml:id), "Core Values in Practice" (title)
+    *  PTX:ERROR:   a cross-reference ("xref") uses references [thm-example-theorem] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+    *               located within: "sec_firstch-examples" (xml:id), "Core Values in Practice" (title)
+
+Copying successful build from /tmp/tmpkoojt23o into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+]0;~/new-pretext-project[01;34m~/new-pretext-project[00m$ pretext publish
+PreTeXt project found in `/home/user/new-pretext-project`.
+Updating project Git repository with latest changes to source.
+Preparing to publish the latest build located in `/home/user/new-pretext-project/output/html`.
+Latest build copied to `/home/user/new-pretext-project/docs`.
+Pushing to GitHub. (Your password may be required below.)
+Latest build successfully pushed to GitHub.
+(It may take a few seconds for GitHub Pages to reflect any changes.)
+]0;~/new-pretext-project[01;34m~/new-pretext-project[00m$ ]0;~/new-pretext-project[01;34m~/new-pretext-project[00m$ pretext publish[2Pbuild
+PreTeXt project found in `/home/user/new-pretext-project`.
+Since no build target was supplied, the first target of the project.ptx manifest will be built.
+Preparing to build into a temporary directory.
+[33mwarning: [0mThe source has generated images (<latex-image/>, <asymptote/>, or <sageplot/>), but these will not be (re)built. Run `pretext build` with the `-d` flag if updates are needed.
+
+Now building HTML into /tmp/tmpnsroq7qh
+
+PTX: discovering source file's directory name: /home/user/new-pretext-project/source
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../generated-assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/generated-assets
+PTX: verifying and expanding input directory: /home/user/new-pretext-project/source/../assets
+PTX: input directory expanded to absolute path: /home/user/new-pretext-project/assets
+PTX: converting /home/user/new-pretext-project/source/main.ptx to HTML in /tmp/tmpnsroq7qh
+PTX: XSL conversion of /home/user/new-pretext-project/source/main.ptx by /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl
+PTX: Successful application of /usr/local/lib/python3.8/dist-packages/pretext/static/xsl/pretext-html.xsl, but with messages:
+    *  PTX:ERROR:   the identifier "MTH-1" is repeated 2 times (and this message also repeats)
+    *  PTX:ERROR:   the identifier "MTH-1" is repeated 2 times (and this message also repeats)
+    *  PTX:ERROR:   the identifier "MTH-2" is repeated 2 times (and this message also repeats)
+    *  PTX:ERROR:   the identifier "MTH-2" is repeated 2 times (and this message also repeats)
+    *  PTX:ERROR:   the identifier "MTH-3" is repeated 2 times (and this message also repeats)
+    *  PTX:ERROR:   the identifier "MTH-3" is repeated 2 times (and this message also repeats)
+    *  PTX:ERROR:   the identifier "MTH-4" is repeated 2 times (and this message also repeats)
+    *  PTX:ERROR:   the identifier "MTH-4" is repeated 2 times (and this message also repeats)
+    *  MBX:WARNING: A section containing subsections needs to have other content inside an <introduction> and/or  <conclusion>.
+    *               located within: "sec_firstch-examples" (xml:id), "Core Values in Practice" (title)
+    *  PTX:ERROR:   a cross-reference ("xref") uses references [thm-example-theorem] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+    *               located within: "sec_firstch-examples" (xml:id), "Core Values in Practice" (title)
+    *  PTX:ERROR:   a cross-reference ("xref") uses references [thm-example-theorem] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+    *               located within: "sec_firstch-examples" (xml:id), "Core Values in Practice" (title)
+
+Copying successful build from /tmp/tmpnsroq7qh into /home/user/new-pretext-project/output/html.
+
+Success! Run `pretext view html` to see the results.
+
+]0;~/new-pretext-project[01;34m~/new-pretext-project[00m$ PRETE[K[K[K[K[Kpretext view html
+PreTeXt project found in `/home/user/new-pretext-project`.
+Now starting a server to preview directory `/home/user/new-pretext-project/output/html`.
+
+Server started at https://cocalc.com/a2bb9f6c-fe4b-4560-8f02-03ea76bcd282/server/8000/
+
+Use [Ctrl]+[C] to halt the server.
+
+192.168.225.89 - - [10/Feb/2022 17:37:03] "GET / HTTP/1.1" 200 -
+192.168.225.89 - - [10/Feb/2022 17:37:03] "GET /frontmatter.html HTTP/1.1" 200 -
+192.168.225.89 - - [10/Feb/2022 17:37:04] code 404, message File not found
+192.168.225.89 - - [10/Feb/2022 17:37:04] "GET /developer.css HTTP/1.1" 404 -
+192.168.225.89 - - [10/Feb/2022 17:37:05] code 404, message File not found
+192.168.225.89 - - [10/Feb/2022 17:37:05] "GET /frontmatter.ptx HTTP/1.1" 404 -
+192.168.225.89 - - [10/Feb/2022 17:37:06] code 404, message File not found
+192.168.225.89 - - [10/Feb/2022 17:37:06] "GET /frontmatter.ptx HTTP/1.1" 404 -
+^C
