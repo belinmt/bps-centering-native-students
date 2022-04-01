@@ -1,15 +1,79 @@
 <?xml version='1.0' encoding='utf-8'?>
 
-<section xml:id="MTH-2" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Prevalent Symbols and Impacts of Colonization. </title>  
+<section xml:id="SCI-2" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Culturally Responsive Science Framework </title>  
     <introduction>
-        Some examples include: 
+        The purpose of this framework is to provide additional detail for developing a culturally responsive science curriculum. This supplementary framework should be used in addition to the “Culturally Responsive Curriculum Framework: Indigenous Communities and Pueblo Nations Served by Bernalillo Public Schools”. This section will include: 
         <ul>
-            <li>Erasure of Indigenous mathematical knowledge and representation</li>
-            <li>Lack of opportunities for creativity and expression through mathematics.</li>
-            <li>Mathematics for capitalism. </li>
-            <li>Mathematics education being used as a tool for assimilation. </li>
-            <li>Mathematics for military. </li>
+            <li>Core Values in Practice</li>
+            <li>Examples inside and outside Bernalillo Public Schools</li>
+            <li>Prevalent Symbols and Impacts of Colonization </li>
+            <li> Centering Students </li>
+            <li>Desired Outcome</li>
         </ul>
     </introduction>
+    <subsection>
+        <title>Core Values in Practice</title>
+        <ul>
+            <li>Be Purposefully Culturally Responsive</li>
+            <li>Nurture Knowledge and Be Responsibly Committed to Long-Term Pathways</li>
+            <li>Be Community Centered in Educational Approaches</li>
+            <li>Be Accountable By Honoring Students, Their Histories, and The District Vision</li> 
+            <li>Honor Identity and Be Caring</li>
+            <li>Acknowledge Perseverance Through Mutual Respect</li>
+            <li>Strive for Innovation and Creativity</li>
+            <li>Show Pride Through Collaboration</li>
+        </ul>
+    </subsection>
+    
+     <subsection>
+        <title>Examples inside and outside Bernalillo Public Schools</title>
+        <ul>
+            <li>Keres Classes <url href="https://www.nps.gov/subjects/tek/indigenous-language-and-tek.htm">(TEK embedded in Indigenous languages)</url></li>
+            <li><url href="https://www.sfis.k12.nm.us/agriscience">Santa Fe Indian School Agriscience Program</url></li>
+             <li><url href="https://www.dreamdine.org/who-we-are/curriculum-wellness">Dream Dine Charter School experiential curriculum </url></li>
+            <li><url href="https://indianpueblo.org/indigenous-wisdom-curriculum-project/">Indian Pueblo Cultural Center Indigenous Wisdom Curriculum</url></li> 
+            <li>Pueblo Liasons</li>
+            <li><url href="https://www.aises.org/students/pre-college">American Indian Science and Engineering Society (AISES) Pre-College Programs</url></li>
+            <li> <url href="https://www.nacaschool.org"> Native American Community Academy</url>  School-based mentoring program and College Enrichment Program</li>
+            <li><url href="https://www.sfis.k12.nm.us/community_based_education">SFIS Community Based Education</url></li>
+        </ul>
+    </subsection>
+    
+     <subsection>
+        <title>Prevalent Symbols and Impacts of Colonization</title>
+        <ul>
+            <li><url href="https://tribalcollegejournal.org/on-science-culture-and-curriculum-enhancing-native-american-participation-in-science-related-fields">Lack of inclusion of local/place-based knowledge and socio-cultural connections in western science</url></li>
+            <li><url href="https://jan.ucc.nau.edu/jar/HOE/HOE4.pdf">Ethical concerns of western science research</url></li>
+            <li><url href="https://blog.eie.org/native-american-and-indigenous-representation-in-stem-where-are-we-now">Low representation of Native Americans is STEM fields</url></li>
+            <li>Traditional Western Science training teaches students to be disconnected from communities</li> 
+            <li>Policy decisions that have led to environmental injustices and disproportionate negative impacts on Indigenous communities</li>
+        </ul>
+    </subsection>
+ 
+     <subsection>
+        <title>Centering Students</title>
+        <ul>
+            <li>Teach science concepts in place-based contexts</li>
+            <li>Support students in learning terminology in their Native languages and relating to traditional stories</li>
+            <li>Teach students about STEM-related issues that impact Indigenous peoples like climate change, energy development, genetics research (re: claims to Indigeneity), endangered species</li>
+            <li>Teach students history of science and that there are multiple ways of knowing but Western Science has dominated education</li> 
+            <li>Expand the definition of “science” in classrooms to show how daily activities of students are ways that students practice science
+</li>
+            <li>Use examples of how Indigenous knowledge and TEK have affirmed or added to larger body of science knowledge</li>
+            <li>Point to science that has been done by Indigenous scientists</li>
+            <li>Hands on lessons</li>
+            <li>Collaborate with local tribal environmental and natural resources departments</li>       
+         </ul>
+    </subsection>  
+    
+     <subsection>
+        <title>Desired Outcomes</title>
+        <ul>
+            <li> Students will understand science lessons and concepts as not being abstract but a part of their communities and everyday lives</li>
+            <li>Students will understand how science can be used to address issues facing their families and communities</li>
+            <li>Students will understand the lack of inclusion of Indigenous knowledge/voices in dominant STEM practice and education is a result of the Western science framework and colonial practices</li>
+            <li>Students will better understand how to see themselves as scientists and their potential to succeed in science</li> 
+        </ul>
+    </subsection>  
 </section>

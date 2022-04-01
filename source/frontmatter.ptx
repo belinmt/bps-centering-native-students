@@ -6,6 +6,12 @@
 <frontmatter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="frontmatter">
   <titlepage>
     <author>
+      <personname>Belin Tsinnajinnie, PhD., Editor</personname>
+      <department>Mathematics</department>
+      <institution>Santa Fe Community College</institution>
+    </author>
+      
+    <author>
       <personname>Leola Paquin, PhD., Editor</personname>
       <department>Native American Studies</department>
       <institution>University of New Mexico</institution>
@@ -17,11 +23,7 @@
       <institution>University of New Mexico</institution>
     </author>
 
-    <author>
-      <personname>Belin Tsinnajinnie, PhD., Editor</personname>
-      <department>Mathematics</department>
-      <institution>Santa Fe Community College</institution>
-    </author>
+
     <date><today/></date>
   </titlepage>
 

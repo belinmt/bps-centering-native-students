@@ -1,16 +1,114 @@
 <?xml version='1.0' encoding='utf-8'?>
 
-<section xml:id="MTH-3" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Centering Native Students in Mathematics</title>  
+<section xml:id="SCI-3" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Cultural Contexts and supplementary resources for Bedrock Science Curriculum, Grades 1-8</title>  
     <introduction>
-        Educators could:  
-        <ul>
-            <li>Create a positive learning community that extends beyond the classroom both in place and time.</li>
-            <li>Integrate students’ academic and cultural identities. </li>
-            <li>Cultivate creative and critical thinking in mathematics activities and lessons.</li>
-            <li>Explore and build off of the ways that students and their families engage with mathematics.   </li>
-            <li>Create opportunities to engage in mathematics  for social justice. </li>
-            <li>Explore the historical mathematical practices and contributions of Indigenous peoples. </li>
-        </ul>
+        This document provides suggested cultural contexts to use in relation to science curriculum developed for Bernalillo Public Schools by Bedrock Partners.   
     </introduction>
+    
+    <!-- First Grade --> 
+    
+    <subsection>
+        <title>1st Grade</title>
+        <assemblage>
+            <title>Context 1:  Supplement to “Science through Story: The Sun, Moon, and Stars” </title>
+            <p>This context builds off of Lesson Two, “Science through Story: The Sun, Moon, and Stars” in the “Pueblo Creation Story: Our Awe Inspiring Cosmos” unit from the Indigenous Wisdom: Centuries of Pueblo Impact in New Mexico Pueblo-based educational curriculum accessed through the Indian Pueblo Cultural Center website. </p> 
+       </assemblage> 
+      <example> <title>Standard 1-ESS1-1</title>
+        <p>
+          Description: Use observations of the sun, moon, and stars to describe patterns that can be predicted.
+        </p>
+        <p>Suggested classroom activities: Conduct Lesson Two, “Science through Story: The Sun, Moon, and Stars”. Ask students to ask family or community members how to describe the sun, moon, and stars in their Native language(s).
+        </p>
+      </example>
+      <example> <title>Standard 1-ESS2-2</title>
+        <p>
+          Description: Make observations at different times of year to relate the amount of daylight to the time of year.
+        </p>
+        <p>Suggested classroom activities:  Refer to the “Pacing Guide for Teachers of Pueblo Students”. Ask students to reflect on the amount of daylight during the community activities listed during different parts of the year.
+        </p>
+      </example>
+        <example> <title>Standard 1-PS4-2</title>
+        <p>
+          Description: Make observations to construct an evidence-based account that objects in darkness can be seen only when
+illuminated.
+        </p>
+        <p>Conduct Lesson Two, “Science through Story: The Sun, Moon, and Stars”. Take home exercise:
+ Ask students to go home and observe the stars and to find the constellations from the “Culminating Activity” of “Pueblo Creation Story: Our Awe Inspiring Cosmos”. Ask students to ask their family or community members if there are names in their Native language(s) to the different constellations.
+Questions: What time was it easiest for you to see the constellations? How “bright” was the moon? Why do you think the moon “brighter” at night? If the moon was bright, did you see more stars closer or further away from the moon? Why do you think it is easier to see stars at night?
+        </p>
+      </example>
+      <example> <title>Standard 1-PS4-3</title>
+        <p>
+          Description: Plan and conduct investigations to determine the effect of placing objects made with different materials in
+the path of a beam of light.
+        </p>
+        <p>Take home exercise: 
+ When going outside to observe the constellations (from take home activity in 1-PS4-2), ask students to take a flashlight and shine it on different objects outside. 
+        </p>
+      </example>
+        
+      <assemblage>
+            <title>Context 2: Three sisters </title>
+            <p>Describe to students the concept of the “Three sisters” where corns, beans, and squash are planted together to help each other grow. <url href="https://www.nativeseeds.org/blogs/blog-news/how-to-grow-a-three-sisters-garden">(https://www.nativeseeds.org/blogs/blog-news/how-to-grow-a-three-sisters-garden). </url></p> 
+       </assemblage> 
+      <example> <title>Standard 1-LS1-1</title>
+        <p>
+          Description: Use materials to design a solution to a human problem by mimicking how plants and/or animals use their external parts to help them survive, grow, and meet their needs. 
+        </p>
+        <p>Suggested classroom activities: Describe to students how “Corn provides tall stalks for the beans to climb so that they are not out-competed by sprawling squash vines. Beans provide nitrogen to fertilize the soil while also stabilizing the tall corn during heavy winds. Beans are nitrogen-fixers meaning they host rhizobia on their roots that can take nitrogen, a much needed plant nutrient, from the air and convert it into forms that can be absorbed by plant roots. The large leaves of squash plants shade the ground which helps retain soil moisture and prevent weeds.” (From Native Seeds webpage)</p>
+<p>
+Questions:
+How does growing tall like corn help you as you get older? What parts of your body help you to stand and walk and keep you stable like beans do in helping to keep roots stable? What parts of your body is used to protect you from the sun or other objects like leaves of squash plants? </p>
+      </example>
+        
+      <example> <title>Standard 1-LS1-2</title>
+        <p>
+          Description: Read texts and use media to determine patterns in behavior of parents and offspring that help offspring
+survive.
+        </p>
+        <p>Suggested classroom activities:  Describe how the concept of the “Three Sisters” has been passed down from one generation to another in Native American communities. This knowledge has been passed down from grandparents and parents to children to help them to survive through knowing how to grow these crops together and they are called “sisters” because family help each other to survive.</p>
+<p>
+Questions:
+How do you and your family help each other? How do your parents and grandparents help you? How will/do you help your younger siblings or children when you grow older? </p>
+      </example>
+        <example> <title>Standard 1-LS3-1</title>
+        <p>
+          Description: Make observations to construct an evidence-based account that young plants and animals are like, but not exactly like, their parents.
+        </p>
+        <p>Take home exercise: 
+Ask students to describe how they are alike and different from their brothers/sisters/cousins. Ask students to ask other family members how they are alike or different from their siblings/cousins.
+        </p>
+      </example>
+        
+      <assemblage>
+            <title>Context 3: Drums</title>
+            <p>Drums are used during feast day dances and other ceremonies. Students may hear and see different types of drums at pow-wows or cultural ceremonies at other Indigenous communities. Students can reflect on their experiences listening to and hearing drums when learning for the following standards. <video youtube="Ev-5HJ_FI-c"/> </p> 
+       </assemblage> 
+      <example> <title>Standard 1-PS4-1</title>
+        <p>
+          Description: Plan and conduct investigations to provide evidence that vibrating materials can make sound and that sound can make materials vibrate.  
+        </p>
+        <p>Suggested classroom activities: Questions: What is needed for a drum to make sound? Is the drum louder when you beat it harder or softer with a drumstick? Do you feel vibrations when you are close to someone singing with a drum?
+</p>
+      </example>
+        
+      <example> <title>Standard 1-PS4-4</title>
+        <p>
+          Description: Use tools and materials to design and build a device that uses light or sound to solve the problem of communicating over a distance
+        </p>
+        <p>Suggested classroom activities:  Questions:
+What types or size of drums are better to use in a small room where people are listening close by? What types or size of drums are better to use outside for people who are further away to listen to?
+ </p>
+      </example>
+    </subsection>
+    
+    <!-- Second Grade -->
+    <subsection><title>Second Grade</title></subsection>
+    <subsection><title>Third Grade</title></subsection>
+    <subsection><title>Fourth Grade</title></subsection>
+    <subsection><title>Fifth Grade</title></subsection>
+    <subsection><title>Sixth Grade</title></subsection>
+    <subsection><title>Seventh Grade</title></subsection>
+    <subsection><title>Second Grade</title></subsection>
 </section>

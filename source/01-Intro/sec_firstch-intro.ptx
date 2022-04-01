@@ -8,26 +8,11 @@
     </p>
   </introduction>
   <subsection xml:id="subsec-a-subsection">
-    <title>A subsection</title>
+    <title>An Overview of Native American Studies</title>
     <p>
-      Content of the subsection.
-    </p>
-    <p>
-      More content.
+      <video youtube="X4CzHO6BF8w"/>
     </p>
   </subsection>
 
-  <subsection xml:id="subsec-another-subsection">
-    <title>Another Subsection</title>
-    <p>
-      Text with some math: <m>\sin(x) = \cos(x)</m> only for some values of <m>x</m>.
-    </p>
-  </subsection>
-
-  <conclusion>
-    <p>
-      After the last subsection, you might have a conclusion.
-    </p>
-  </conclusion>
 </section>
 

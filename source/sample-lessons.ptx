@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- This chapter will eventually contain a bunch of examples of pretext functionality. Useful for copy/paste examples of various things. -->
+
+<chapter xml:id="sample-lessons.ptx" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Sample Lesson Plans</title>
+  <introduction>
+    <p>Below are examples of a lot of <pretext /> elements.</p>
+  </introduction>
+  <section xml:id="sec_ptxfeat-blocks">
+    <title>Understanding Climate Change, Global Warming, and the Impact on Our Communities in New Mexico</title>
+    <p>Content Area: Science, Math, Native American and Indigenous Studies</p>
+      <p>Grade levels: 11-12 </p>
+      <p>Rationale: Climate change endangers all beings of the earth.  Education on climate change is not only vital to the survival of future generations but also to the ways of life that have been passed on to us by our ancestors.  In the last few decades the impact of climate change has become more clearly visible to our societies.  In the last few years, we have witnessed the devastation of melting glaciers, rising sea levels, abnormal tornadoes, overwhelming heat waves, extensive drought, extreme wildfires, and intense winter storms.  This has led to rapid animal extinctions, reduced sustainable farmlands, destruction of infrastructure, and the politicalization of science.  Essentially, this has caused and will continue to cause another wave of colonial destruction to our ways of life globally, continentally, and locally.  This is a central issue across all subject areas as it impacts our history, our politics, our wellness, our communication, our planning, our economic systems, our traditions, our ecosystems, and the sustainability of who we are.  This unit can be embedded into math, science, or Native American Studies classes.  Ideally, this can/would be a collaborative unit across courses (including English, Social Studies, Arts, Electives, Languages, etc.).  This is a model unit that can and should be adapted to fit the dynamics of the teachers and students.</p>
+      
+      <p>Unit Goals:</p>
+      <ul>
+          <li>Students will be able to identify how climate indicators (temperature, precipitation) are/are projected to increasing or decreasing in their region due to climate change</li>
+          <li>Students will be able to define and provide examples of how climate change has affected Indigenous peoples in the past.</li>
+          <li>Students will be able to identify examples of how climate change is affecting Indigenous peoples.</li>
+          <li>Students will be able to identify examples of how Indigenous peoples are addressing climate change.</li>
+          <li>Students will be able to describe how mathematical and statistical reasoning can be used to explore and describe issues related to climate change and their communities. </li>
+      </ul>
+      
+      <p>Materials</p>
+      <ol>
+          <li>Student Transportation</li>
+          <li>Food</li>
+          <li>Small gifts and gift cards</li>
+          <li>Family members or community elders (consider including school elders from the staff side)</li>
+          <li>Cameras</li>
+          <li>Internet</li>
+          <li>Computer</li>
+          <li>Projector</li>
+          <li>Classroom meeting space</li>
+          <li>Presentation materials (based on resourc)</li>
+      </ol>
+     <subsection><title>Procedures</title></subsection>
+      <subsection><title>Resources</title></subsection>
+  </section>
+</chapter>
