@@ -1,9 +1,20 @@
 <?xml version='1.0' encoding='utf-8'?>
 
 <section xml:id="SCI-3" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Cultural Contexts and supplementary resources for Bedrock Science Curriculum, Grades 1-8</title>  
+  <title>Cultural Contexts and supplementary resources for Bedrock Science Curriculum, Grades K-8</title>  
     <introduction>
-        This document provides suggested cultural contexts to use in relation to science curriculum developed for Bernalillo Public Schools by Bedrock Partners.   
+        This document provides suggested cultural contexts to use in relation to science curriculum developed for Bernalillo Public Schools by Bedrock Partners. Links to Google Doc versions are available here:
+        <ul>
+            <li><url href="https://docs.google.com/document/d/1bo5dZfyIjiJtJYLXl8z_ulAuC8adRhHuilBW_tocJGM/edit?usp=sharing">Kindergarten</url></li>
+            <li><url href="https://docs.google.com/document/d/19nBrD6NDKSBVBuVu0iFFDktgKH0Wrig__fRzVGR_VE0/edit?usp=sharing">1st Grade</url></li>
+            <li><url href="https://docs.google.com/document/d/1ea-8IvzQuf_OPXmUjQMacyVWEO-Bids0c6OqQZD6WRA/edit?usp=sharing">2nd Grade</url></li>
+            <li><url href="https://docs.google.com/document/d/1coPiOYyobzaJIrncyjrmYp98zAAwxLz6aRDGpKvhnpM/edit?usp=sharing">3rd Grade</url></li>
+            <li><url href="https://docs.google.com/document/d/1jCrUVQWba_TQA6EyONfVo8fH2NCZQ4Stg0tG3imj3-0/edit?usp=sharing">4th Grade</url></li>
+            <li><url href="https://docs.google.com/document/d/1ETbv-rAJ5mrSmj2DGlfHk35-q2NNKCnkBPTQ8UxcZA0/edit?usp=sharing">5th Grade</url></li>
+            <li><url href="https://docs.google.com/document/d/1cBTot70L_tmeTgZ3OfDRcm2v2m6rnMJ0rLOThftO-S0/edit?usp=sharing">6th Grade</url></li>
+            <li><url href="https://docs.google.com/document/d/1ZS4m58wcnIvMKBOOxh0UBrkVmyOL09SzoMLuPnxdp-s/edit?usp=sharing">7th Grade</url></li>
+            <li><url href="https://docs.google.com/document/d/1DAcbbDQgIN2vPyci_O64itbZzb4vcGfoXwfSS06FgD4/edit?usp=sharing">8th Grade</url></li>
+        </ul>
     </introduction>
     
     <!-- First Grade --> 
@@ -104,11 +115,576 @@ What types or size of drums are better to use in a small room where people are l
     </subsection>
     
     <!-- Second Grade -->
-    <subsection><title>Second Grade</title></subsection>
-    <subsection><title>Third Grade</title></subsection>
-    <subsection><title>Fourth Grade</title></subsection>
-    <subsection><title>Fifth Grade</title></subsection>
-    <subsection><title>Sixth Grade</title></subsection>
-    <subsection><title>Seventh Grade</title></subsection>
-    <subsection><title>Second Grade</title></subsection>
+    <subsection><title>Second Grade</title>
+        <assemblage>
+            <title>Context 1:  Sacred Mountains: importance of mountains to life in NM </title>
+            <p>Mountains are sacred to Indigenous peoples around the world and in NM. Local mountains can provide a place-based setting to make  geological, ecological, and cultural connections that help students learn the following NM STEM Ready! Science standards. </p> 
+       </assemblage> 
+      <example> <title>Standard 2-ESS1-1</title>
+        <p>
+          Description: Use information from several sources to provide evidence that Earth events can occur quickly or slowly.
+        </p>
+          <p> <em>Take home exercise:</em> Ask students to ask a family member about the origin story and name in their Native language of a mountain sacred to their Pueblo/community. Have students research how long it took the mountain to form from a geologic perspective.</p> 
+       </example>
+            
+      <example> <title>Standard 2-ESS2-1</title>
+        <p>
+          Description: Compare multiple solutions designed to slow or prevent wind or water from changing the shape of the land.
+        </p>
+        <p> <em>Questions:</em> What parts of a mountain does water flow faster (steep hillslopes, flat areas or lakes/reservoirs, near the top of the mountain or bottom of the mountain)? What parts of the mountain are very windy? How does water change the land on a mountain? How does wind change the land or vegetation on a mountain? 
+        </p>
+      </example>
+
+      <example> <title>Standard 2-ESS2-2</title>
+        <p>
+          Description: Develop a model to represent the shapes and kinds of land and bodies of water in an area.
+        </p>
+        <p> Have students draw or model their sacred mountain or another nearby mountain. <em>Questions:</em> Where is snow usually located on the mountain in the winter? Where are the streams, springs, and lakes/reservoirs? 
+        </p>
+          <p><em>Take home exercise:</em> Ask students to as a family or community member the names of nearby water bodies located on the sacred mountain in their Native language.</p>
+      </example> 
+    
+      <example> <title>Standard 2-LS4-1</title>
+        <p>
+          Description: Make observations of plants and animals to compare the diversity of life in different habitats.
+        </p>
+        <p> <em>Questions:</em> What types of plants and animals do you see near your home or village? What different types of plants and animals do you see in the mountains? 
+        </p>
+      </example> 
+    
+      <example> <title>Standard 2-LS4-1</title>
+        <p>
+          Description: Make observations of plants and animals to compare the diversity of life in different habitats.
+        </p>
+        <p> <em>Questions:</em> What types of plants and animals do you see near your home or village? What different types of plants and animals do you see in the mountains? 
+        </p>
+      </example> 
+
+      <example> <title>Standard 2-LS2-1</title>
+        <p>
+          Description: Plan and conduct an investigation to determine if plants need sunlight and water to grow.
+        </p>
+        <p> Explain how New Mexico has a lot of sunlight and plants in NM are mostly limited by water in order to grow. Important sources of water in NM are large rivers like the Rio Grande and the mountains because mountains receive a lot of precipitation.</p>
+          <p><em>Questions:</em> Where in NM do we see a lot of plants/vegetation growing? Why do we see more trees and grasses growing close to the Rio Grande (in the Bosque) compared to other areas? Why do we see more forests in the mountains in NM compared to other areas? 
+        </p>
+      </example>
+    
+      <example> <title>Standard 2-LS2-2</title>
+        <p>
+          Description: Develop a simple model that mimics the function of an animal in dispersing seeds or pollinating plants
+        </p>
+        <p> <em>In-class exercises</em> Ask students about what animals live in the mountains. Explain to students how some animals like mountain lions or bears can travel long distances and seeds that they eat or are caught in their fur can be spread across those distances.
+</p>
+          <p>Look up videos of animals caught on trail cameras by the Pueblo of Santa Ana Natural Resource Department on their Facebook page. Ask students to think about how each of the different types of animals might spread seeds. 
+        </p>
+      </example>
+      
+      <example> <title>Standard 2-PS1-1</title>
+        <p>
+          Description: Plan and conduct an investigation to describe and classify different kinds of materials by their observable properties.
+        </p>
+        <p> <em>Take home exerfcise: </em> Have students collect different pieces of object found in nature like twigs, pieces of wood, rocks, and leaves. Ask students to get a cup of water or find some standing water and to drop each object in the water. Explain to students that mountain streams can flow from the top of the mountains to the bottom of mountains and some streams connect to the Rio Grande. 
+</p>
+          <p><em>Questions:</em> Which of the natural objects that you collected and dropped in the water is most likely to travel the furthest in a mountain stream?
+        </p>
+      </example>
+    
+      <example> <title>Standard 2-PS1-2</title>
+        <p>
+          Description: Analyze data obtained from testing different materials to determine which materials have the properties that are best suited for an intended purpose.
+        </p>
+        <p> <em>Take home exercise: </em> Have students collect different pieces of object found in nature like twigs, pieces of wood, rocks, and leaves. Ask students to get a cup of water or find some standing water and to drop each object in the water. Explain to students that mountain streams can flow from the top of the mountains to the bottom of mountains and some streams connect to the Rio Grande. 
+</p>
+          <p><em>Questions:</em> Which of the natural objects that you collected and dropped in the water is most likely to travel the furthest in a mountain stream?
+        </p>
+      </example>
+    </subsection>
+    <!-- Third Grade -->
+    <subsection><title>Third Grade</title>       
+      <assemblage>
+            <title>Context 1:  Our home, environment, and living beings </title>
+            <p>This context refers to the homes, environment, plants and animals in NM. Using NM as a broader place-based settings will help make concepts learned in the following standards more relevant to students. </p> 
+       </assemblage> 
+      <example> <title>Standard 3-ESS2-1</title>
+        <p>
+          Description: Represent data in tables and graphical displays to describe typical weather conditions expected during a
+particular season.</p>
+          <p> <em>In-class exercise:</em>
+Go to the Weather Spark website <url href="https://weatherspark.com/" />. Type in “Bernalillo” in the search box and click on “Bernalillo, New Mexico” from the drop down box. View the graphics with the students. Refer to the “Pacing Guide for Teachers of Pueblo Students” and ask students to relate the highs and lows of temperature, precipitation, rainfall, daylight, and cloud cover to the different community activities listed in the Pacing Guide.
+        </p>
+    </example>
+    
+    <example> <title>Standard 3-ESS2-2</title>
+        <p>
+          Description: Obtain and combine information to describe climates in different regions of the world.
+        </p>
+          <p> <em>In-class exercise:</em>
+Go to the Weather Spark website <url href="https://weatherspark.com/" />. Click on the different cities from around the world and compare the weather/climate information to Bernalillo, New Mexico.
+
+        </p>
+    </example>
+    
+    <example> <title>Standard 3-ESS3-1</title>
+        <p>
+          Description: Make a claim about the merit of a design solution that reduces the impacts of a weather-related hazard.
+        </p>
+          <p> <em>In-class exercise:</em>
+Pick a city that you looked up in the in-class exercise for 3-ESS2-2 that has a different climate than Bernalillo. Look up the type of homes that are built in that city. Compare those homes to adobe houses found in communities in NM. Discuss with students why adobe houses may or may not work better in the city with a different climate than the houses that are found there.
+        </p>
+    </example>
+    
+    <example> <title>Standard 3-LS1-1</title>
+        <p>
+          Description: Develop models to describe that organisms have unique and diverse life cycles but all have in common
+birth, growth, reproduction, and death.
+        </p>
+          <p> <em>In-class exercise:</em>
+Ask students to make a drawing of a typical crop grown in their community. Ask them to draw how the plant looks during the different seasons: winter, spring, summer, fall. Ask students to ask a family or community member how to describe the different seasons in their Native language.
+        </p>
+    </example>
+    
+    <example> <title>Standard 3-LS2-1</title>
+        <p>
+          Description: Construct an argument that some animals form groups that help members survive.
+        </p>
+          <p> <em>Questions</em>
+What are some animals in NM that you see in groups? How do deer, elk, wolves, and coyotes living in groups help them survive?
+        </p>
+    </example>
+    
+    
+    <example> <title>Standard 3-LS3-1</title>
+        <p>
+          Description: Analyze and interpret data to provide evidence that plants and animals have traits inherited from parents and
+that variation of these traits exists in a group of similar organisms.
+        </p>
+          <p> <em>Questions</em>
+What are some traits of deer and elk? What traits are similar and what traits are different between deer and elk?
+        </p>
+    </example>
+    
+    <example> <title>Standard 3-LS3-2</title>
+        <p>
+          Description: Use evidence to support the explanation that traits can be influenced by the environment.
+        </p>
+          <p> <em>In-class exercise:</em>
+Explain to students how the color and thickness of the coats of elk can change to adapt to the environment. Discuss with students how the coat of an elk in NM might be different than the coat of an elk in a colder, less sunny location.
+        </p>
+    </example>
+    
+    <example> <title>Standard 3-LS4-1</title>
+        <p>
+          Description: Analyze and interpret data from fossils to provide evidence of the organisms and the environments in which
+they lived long ago.
+        </p>
+          <p> <em>External resources:</em> NM Museum of Natural History and Science “Brief Guide to Fossils”
+<url href="https://nmnaturalhistory.org/sites/default/files/documents/education/ScienceHome/BriefGuideFossils.pdf" visual="Brief Guide to Fossils"/>. NM Museum of Natural History and Science “Dinosaurs, Ancient Reptiles, and Paleontology” coloring sheets. <url href="https://nmnaturalhistory.org/resources-families-and-learners/natural-history-coloring-sheets" visual="ColoringSheets" />
+        </p>
+    </example>
+    
+    <example> <title>Standard 3-LS4-2</title>
+        <p>
+          Description: Use evidence to construct an explanation for how the variations in characteristics among individuals of the
+same species may provide advantages in surviving, finding mates, and reproducing.
+        </p>
+          <p> <em>Questions:</em> What are some characteristics of the roadrunner? How might some of these characteristics help a roadrunner be better at surviving and reproducing more than other roadrunners?
+        </p>
+    </example>
+    
+    <example> <title>Standard 3-LS4-3</title>
+        <p>
+          Description: Construct an argument with evidence that in a particular habitat some organisms can survive well, some
+survive less well, and some cannot survive at all.
+        </p>
+          <p> <em>In-class exercise:</em> Explain to students the difference between a native species and an invasive species. Have students look up the differences between a cottonwood tree, a native species to NM, and a Russian olive, an invasive species to NM. Discuss with students the differences and similarities between how cottonwoods and Russian olive trees survive along the Rio Grande.
+        </p>
+    </example>
+    
+    <example> <title>Standard 3-LS4-4</title>
+        <p>
+          Description: Make a claim about the merit of a solution to a problem caused when the environment changes and the
+types of plants and animals that live there may change.
+        </p>
+          <p> <em>In-class exercise:</em> In-class exercise:
+Have a discussion with students about the Rio Grande silvery minnow and different strategies used to protect the silvery minnow <url href="https://www.fws.gov/fisheries/freshwater-fish-of-america/rio_grande_silvery_minnow.html" visual="SilveryMinnow"/>. </p> 
+        <p> <em>Take home exercise:</em> Ask students to ask an elder in their community about how their community interacts or used to interact with the silvery minnow and what the silvery minnow is called in their Native language.
+        </p>
+    </example>
+    
+    <assemblage>
+            <title>Context 2: Hiking and Fishing </title>
+            <p>Hiking and fishing is a common practice in NM. In this context, students can relate activities done while hiking and fishing to concepts addressed in the following standards.</p> 
+        
+       </assemblage> 
+      <example> <title>Standard 3-PS2-1</title>
+        <p>
+          Description: Plan and conduct an investigation to provide evidence of the effects of balanced and unbalanced forces on the motion of an object.
+        </p>
+        <p><em>Questions:</em> When casting a fishing line, how are forces on the fishing line balanced or unbalanced? When reeling in a fish caught in your line, are the forces balanced or unbalanced?
+        </p>
+      </example>
+    
+      <example> <title>Standard 3-PS2-2</title>
+        <p>
+          Description: Make observations and/or measurements of an object’s motion to provide evidence that a pattern can be used to predict future motion.
+        </p>
+        <p><em>Questions:</em> What happens when you go fishing on a windy day compared to a day that isn’t windy? If it is a windy day while fishing, how do you adjust how you cast your line?
+        </p>
+      </example>
+    
+      <example> <title>Standard 3-PS2-3</title>
+        <p>
+          Description: Ask questions to determine cause and effect relationships of electric or magnetic interactions between two objects not in contact with each other.
+        </p>
+        <p><em>In-Class exercise:</em> Explain to students how using a compass and map can be helpful when hiking to make sure you don’t get lost. Explain how compasses use the magnetic attraction between a needle and the North direction to help people know their direction. Create a scavenger hunt for students to find objects using a compass. </p> 
+        <p><em>External Resource:</em> "How to Teach Students to Use a Compass"- <url href="https://sciencing.com/how-to-teach-kids-about-longitude-and-latitude-12749932.html" /> 
+        </p>
+      </example>
+    </subsection>
+    
+    <!-- Fourth Grade -->
+    <subsection><title>Fourth Grade</title>
+    
+      <assemblage>
+            <title>Context 1: The Rio Grande Basin </title>
+            <p>This context refers to the homes, environment, plants and animals in NM. Using NM as a broader place-based settings will help make concepts learned in the following standards more relevant to students. </p> 
+       </assemblage> 
+    
+      <example> <title>Standard 4-ESS1-1</title>
+        <p>
+          Description: Identify evidence from patterns in rock formations and fossils in rock layers to support an explanation for
+changes in a landscape over time.
+        </p>
+        <p><em>In-class exercise:</em> Refer to <url href="https://drive.google.com/file/d/18izjh6OZT3omW7jDUz4OxGWCZ7engdmo/view?usp=sharing" visual="https://drive.google.com/file/d/18izjh6OZT3omW7jDUz4OxGWCZ7engdmo/view?usp=sharing">Reano and Ridgway (2015)</url>, show Figure 1, and discuss with students how different rock layers can be tied to Native American culture, as discussed in the article. You can discuss how these rock layers are located in other areas of the Rio Grande Basin and other tribes and Pueblos may have similar connections.
+        </p>
+      </example>
+    
+      <example> <title>Standard 4-ESS2-1</title>
+        <p>
+          Description: Make observations and/or measurements to provide evidence of the effects of weathering or the rate of
+erosion by water, ice, wind, or vegetation.
+        </p>
+        <p><em>In-class exercise:</em> Make connections of weathering and erosion to the formation of the Great Sand Dunes National Park (<url href="https://www.doi.gov/blog/12-things-you-didnt-know-about-great-sand-dunes-national-park-and-preserve"/>) and it's tie to the Rio Grande River (<url href="https://drive.google.com/file/d/18izjh6OZT3omW7jDUz4OxGWCZ7engdmo/view?usp=sharing" />).
+        </p>
+      </example>
+    
+      <example> <title>Standard 4-ESS2-2</title>
+        <p>
+          Description: Analyze and interpret data from maps to describe patterns of Earth’s features.
+        </p>
+        <p><em>In-class or take home exercise:</em> Ask students to explore features of the Rio Grande Basin using Google Earth  (<url href="https://earth.google.com/web/"/>).
+        </p>
+      </example>
+     
+      <example> <title>Standard 4-ESS3-1</title>
+        <p>
+          Description: Obtain and combine information to describe that energy and fuels are derived from natural resources and their uses affect the environment.
+        </p>
+        <p><em>In-class exercise:</em> Discuss with students the impacts of oil and gas drilling in the Chaco Canyon region (<url href="https://www.wilderness.org/wild-places/new-mexico/oil-and-gas-drilling-chaco-canyon"/>).
+        </p>
+      </example>
+    
+     <example> <title>Standard 4-ESS3-2</title>
+        <p>
+          Description: Generate and compare multiple solutions to reduce the impacts of natural Earth processes on humans.
+        </p>
+        <p><em>In-class exercise:</em> Discuss with students the natural occurrence of fire and fire history in the Rio Grande Bosque (<url href="https://nmnaturalhistory.org/bosque-education-guide/chapter-6-fire-rio-grande-bosque"/>).
+        </p>
+         <p>Talk with students about Indigenous burning practices: (<url href="https://www.nature.org/en-us/membership-and-giving/donate-to-our-mission/gift-and-estate-planning/newsletter/forever-forests/"/>).
+        </p>
+      </example>
+    
+      <example> <title>Standard 4-LS1-1</title>
+        <p>
+          Description: Construct an argument that plants and animals have internal and external structures that function to support
+survival, growth, behavior, and reproduction.
+        </p>
+        <p><em>In-class exercise:</em> Explain to students the features of the Rio Grande cottonwood tree that help it to survive, grow, and reproduce along the Rio Grande bosque. Talk with students about how changes made by humans have impacted cottonwood growth along the Rio Grande (<url href="https://nmnaturalhistory.org/bosque-education-guide/chapter-2-bosque-background"/>).
+        </p>
+        <p> <em>Take home exercise:</em> Ask students to ask a family or community member what the name of the cottonwood is in their Native language. Ask students to talk with elders about changes they have noticed to the Rio Grande bosque.
+        </p>  
+      </example>
+    
+      <example> <title>Standard 4-LS1-2</title>
+        <p>
+          Description: Use a model to describe that animals receive different types of information through their senses, process the information in their brain, and respond to the information in different ways.
+        </p>
+        <p><em>In-class exercise:</em> Introduce students to the Native frogs and toads to the Albuquerque/Bernalillo bosque area (<url href="https://www.cabq.gov/artsculture/biopark/documents/Native%20Amphibians%20Brochure.pdf"/>). Talk with students about how frogs and toads are seen and heard more after it rains and ask them to think about how these amphibians detect rain.
+        </p>
+        <p>Explain how some toads can detect rain vibrations (<url href="https://www.cell.com/current-biology/pdf/S0960-9822(16)31330-6.pdf"/>)</p>
+        <p> <em>Take home exercise:</em> Ask students to ask a family or community member how to describe frogs or toads in their Native language.
+        </p>  
+      </example>
+     
+      <example> <title>Standard 4-PS4-2</title>
+        <p>
+          Description: Develop a model to describe that light reflecting from objects and entering the eye allows objects to be seen. 
+        </p>
+        <p><em>In-class exercise:</em> Talk with students about the different ski basins in the mountains in the headwaters of the Rio Grande Basin. Explain to students that skiers need ski goggles because snow reflects sunlight into skiers eyes and goggles are needed to protect the eyes.
+        </p>
+        <p>Introduce students to goggles made and used by Indigenous peoples in Alaska to protect their eyes from sunlight reflecting off of snow (<url href="https://www.smithsonianmag.com/smithsonian-institution/snow-goggles-demonstrate-indigenous-ingenuity-180973738/"/>).</p>  
+      </example>
+    
+    <assemblage>
+            <title>Context 2: Drums</title>
+            <p>Using the context of drums can help students relate how a drumstick hitting a drum is an act of transferring energy and creating sound waves. </p> 
+       </assemblage> 
+    
+      <example> <title>Standard 4-PS3-1</title>
+        <p>
+          Description: Use evidence to construct an explanation relating the speed of an object to the energy of that object.
+        </p>
+        <p><em>In-class or take home exercise:</em>In this exercise, have students tap different objects like tables, shelves, desks with their hands like a drum.  Ask students to change the speed at which they “drum” and to make observations about how objects on a table, desk, chair, that they respond to their drumming. 
+        </p>
+        <p><em>Questions:</em>How does the speed of hitting a drum with a drumstick relate to the sound created by the drum? What happens to the sound when you hit the drum faster? What happens to other objects on the table/desk/shelf when you drum? Do objects move more when you drum faster or slower? 
+        </p>
+      </example>
+    
+      <example> <title>Standard 4-PS3-2</title>
+        <p>
+          Description: Make observations to provide evidence that energy can be transferred from place to place by sound, light,
+heat, and electric currents.
+        </p>
+        <p><em>In-class or take home exercise:</em>In this exercise, have students tap different objects like tables, shelves, desks with their hands like a drum.  Ask students to change the speed at which they “drum” and to make observations about how objects on a table, desk, chair, that they respond to their drumming. 
+        </p>
+        <p><em>Questions:</em>How does the speed of hitting a drum with a drumstick relate to the sound created by the drum? What happens to the sound when you hit the drum faster? What happens to other objects on the table/desk/shelf when you drum? Do objects move more when you drum faster or slower? 
+        </p>
+      </example>
+    
+      <example> <title>Standard 4-PS3-3</title>
+        <p>
+          Description: Ask questions and predict outcomes about the changes in energy that occur when objects collide.
+        </p>
+        <p><em>In-class or take home exercise:</em>In this exercise, have students tap different objects like tables, shelves, desks with their hands like a drum.  Ask students to change the speed at which they “drum” and to make observations about how objects on a table, desk, chair, that they respond to their drumming. 
+        </p>
+        <p><em>Questions:</em>How does the speed of hitting a drum with a drumstick relate to the sound created by the drum? What happens to the sound when you hit the drum faster? What happens to other objects on the table/desk/shelf when you drum? Do objects move more when you drum faster or slower? 
+        </p>
+      </example>
+    
+      <example> <title>Standard 4-PS3-4</title>
+        <p>
+          Description: Apply scientific ideas to design, test, and refine a device that converts energy from one form to another.
+        </p>
+        <p><em>In-class or take home exercise:</em>In this exercise, have students tap different objects like tables, shelves, desks with their hands like a drum.  Ask students to change the speed at which they “drum” and to make observations about how objects on a table, desk, chair, that they respond to their drumming. 
+        </p>
+        <p><em>Questions:</em>How does the speed of hitting a drum with a drumstick relate to the sound created by the drum? What happens to the sound when you hit the drum faster? What happens to other objects on the table/desk/shelf when you drum? Do objects move more when you drum faster or slower? 
+        </p>
+      </example>
+     
+      <example> <title>Standard 4-PS4-1</title>
+        <p>
+          Description: Develop a model of waves to describe patterns in terms of amplitude and wavelength and that waves can cause objects to move. 
+        </p>
+        <p><em>In-class or take home exercise:</em>In this exercise, have students tap different objects like tables, shelves, desks with their hands like a drum.  Ask students to change the speed at which they “drum” and to make observations about how objects on a table, desk, chair, that they respond to their drumming. 
+        </p>
+        <p><em>Questions:</em>How does the speed of hitting a drum with a drumstick relate to the sound created by the drum? What happens to the sound when you hit the drum faster? What happens to other objects on the table/desk/shelf when you drum? Do objects move more when you drum faster or slower? 
+        </p>
+      </example>
+    
+      <example> <title>Standard 4-PS4-3</title>
+        <p>
+          Description: Generate and compare multiple solutions that use patterns to transfer information. 
+        </p>
+        <p><em>In-class or take home exercise:</em>In this exercise, have students tap different objects like tables, shelves, desks with their hands like a drum.  Ask students to change the speed at which they “drum” and to make observations about how objects on a table, desk, chair, that they respond to their drumming. 
+        </p>
+        <p><em>Questions:</em>How does the speed of hitting a drum with a drumstick relate to the sound created by the drum? What happens to the sound when you hit the drum faster? What happens to other objects on the table/desk/shelf when you drum? Do objects move more when you drum faster or slower? 
+        </p>
+      </example>
+    </subsection>
+    <!--Fifth Grade -->
+    <subsection><title>Fifth Grade</title>
+    <assemblage>
+            <title>Context 1: Solar energy and soils, elements needed to grow our food </title>
+            <p>In this context, students will relate to how Indigenous peoples connect to the sun and use solar energy, including through renewable energy technology like photovoltaics. Students can relate science standards to the need for healthy soils for farming. </p> 
+       </assemblage> 
+    
+      <example> <title>Standard 5-ESS1-1</title>
+        <p>
+          Description: Support an argument that differences in the apparent brightness of the sun compared to other stars is due to their relative distances from the Earth.
+        </p>
+        <p><em>In-class or take home exercise:</em>Introduce students to photovoltaics by discussing how some Native communities in the Southwest rely on solar energy technology to provide electricity in their homes. Show students the Native Renewables website (<url href="https://www.nativerenewables.org/" />). Download and pass out the zine created by Native Renewables that explains photovoltaics (<url href="https://static1.squarespace.com/static/5f491be9a82eed6a01fd24ac/t/6018a18e281db443ae79bb0e/1612226961043/Solar%2BMinizine%2Bv14.pdf" />). 
+        </p>
+        <p><em>Questions:</em>What are ways you use electricity in your homes? What happens when your home doesn’t have electricity? Why do photovoltaics only work during the day? Can photovoltaics work at night using light from other stars? 
+        </p>
+      </example>
+    
+      <example> <title>Standard 5-ESS1-2</title>
+        <p>
+          Description: Represent data in graphical displays to reveal patterns of daily changes in length and direction of shadows, day and night, and the seasonal appearance of some stars in the night sky.
+        </p>
+        <p><em>Take home exercise:</em> Introduce students to passive solar energy by handing out this handout on passive solar home design in NM (<url href="https://www.nmsolar.org/wp-content/uploads/2017/04/Passive-Solar-Design.pdf" />). 
+        </p>
+        <p>Ask students to walk around their home, village, and neighborhoods to identify how some homes make use of passive solar energy.
+        </p>
+      </example>
+    
+      <example> <title>Standard 5-ESS2-1</title>
+        <p>
+          Description: Develop a model using an example to describe ways the geosphere, biosphere, hydrosphere, and/or
+atmosphere interacts.
+        </p>
+        <p><em>Questions:</em> How do you interact with each of the spheres? What sphere is your home built on and the materials used for your home built on? What sphere does your food come from? How does the sun interact with each sphere?
+        </p>
+      </example>
+    
+      <example> <title>Standard 5-ESS2-2</title>
+        <p>
+          Description: Describe and graph the amounts and percentages of water and fresh water in various reservoirs to provide
+evidence about the distribution of water on Earth.
+        </p>
+        <p><em>In-class exercise:</em> Discuss with students how water is distributed in New Mexico. Refer to the FAQs about water page of the NM Bureau of Geology and Mineral Resources: <url href="https://geoinfo.nmt.edu/faq/water/home.html"/>). Relate to the global distribution of rainfall (<url href="https://www.climate-charts.com/World-Climate-Maps.html" />) and discuss how NM is in an arid climate and we get a lot of solar radiation that easily evaporates our rainfall. Thus, we have less surface water and rely more on groundwater compared to other areas in the world.
+        </p>
+      </example>
+    
+      <example> <title>Standard 5-ESS3-1</title>
+        <p>
+          Description: Obtain and combine information about ways individual communities use science ideas to protect the Earth’s resources and environment.
+        </p>
+        <p><em>Take home or in-class exercise:</em> Introduce students to the NM Tribal Resilience Action Network by showing this YouTube video that discusses how Pueblos and Tribes in NM are addressing climate change: <video youtube="eRwiJaz2n14"/>
+        </p>
+        <p>Also, refer to the Eight Northern Indian Pueblos, Inc.-Office of Environmental Technical Assistance website (<url href="http://enipc-oeta.org/home.htm"/>) to discuss how Pueblos are addressing other environmental issues. </p>
+      </example>
+    
+      <example> <title>Standard 5-LS1-1</title>
+        <p>
+          Description: Support an argument that plants get the materials they need for growth chiefly from air and water.
+        </p>
+        <p><em>Take home or in-class exercise:</em> Invite a Pueblo farmer to talk to students about Pueblo farming practices or ask students to talk to a family or community member about how the work they do in their fields to help their crops grow. </p>
+      </example>
+    
+      <example> <title>Standard 5-LS2-1</title>
+        <p>
+          Description: Develop a model to describe the movement of matter among plants, animals, decomposers, and the
+environment.
+        </p>
+        <p><em>In-class exercise:</em> Introduce students to the role of soil in decomposing plant and animal matter and other environmental functions by showing this YouTube video about soil health in NM: <url href="https://www.nmhealthysoil.org/2021/06/14/soil-care-is-climate-repair/"/>. </p>
+      </example>
+    
+      <example> <title>Standard 5-PS1-1</title>
+        <p>
+          Description: Develop a model to describe that matter is made of particles too small to be seen.
+        </p>
+        <p><em>Questions:</em> What are photons? How are photons from the Sun used to generate electricity?</p>
+        <p> <em>External resource:</em> How a PV Cell works: <url href="https://www.solarschools.net/knowledge-bank/renewable-energy/solar/how-a-pv-cell-works" />
+        </p>
+      </example>
+    
+      <example> <title>Standard 5-PS1-2</title>
+        <p>
+          Description: Measure and graph quantities to provide evidence that regardless of the type of change that occurs when
+heating, cooling, or mixing substances, the total weight of matter is conserved.
+        </p>
+        <p><em>In-class exercise:</em> Materials needed: scale or balance, jars with lids, thermometer, marker, soil collected from different natural local locations.</p>
+<p>
+Fill a jar halfway full with water and close tightly with a lid. Stick a thermometer in the water and weigh the jar. Record the weight and the temperature. Then, stick the jar outside to be warmed by the sun. After several minutes, record the temperature and weight. </p>
+<p>
+Next, use the jar and water to conduct soil texture activity (<url href="https://www.soils4kids.org/files/s4k/soil-texture-experiment.pdf"/>). Tell students where soils were collected from so they can figure out the soil texture in those locations. </p>
+<p>
+Refer to the “Background Agricultural Connections” portion of this website (<url href="https://agclassroom.org/matrix/lesson/print/365/"/>)
+ to talk to students about the importance of knowing soil texture for farming. Next, mix two different types of soil samples and redo the soil texture analysis.
+        </p>
+      </example>
+    
+      <example> <title>Standard 5-PS1-3</title>
+        <p>
+          Description: Make observations and measurements to identify materials based on their properties.
+        </p>
+        <p><em>In-class exercise:</em> Materials needed: scale or balance, jars with lids, thermometer, marker, soil collected from different natural local locations.</p>
+<p>
+Fill a jar halfway full with water and close tightly with a lid. Stick a thermometer in the water and weigh the jar. Record the weight and the temperature. Then, stick the jar outside to be warmed by the sun. After several minutes, record the temperature and weight. </p>
+<p>
+Next, use the jar and water to conduct soil texture activity (<url href="https://www.soils4kids.org/files/s4k/soil-texture-experiment.pdf"/>). Tell students where soils were collected from so they can figure out the soil texture in those locations. </p>
+<p>
+Refer to the “Background Agricultural Connections” portion of this website (<url href="https://agclassroom.org/matrix/lesson/print/365/"/>)
+ to talk to students about the importance of knowing soil texture for farming. Next, mix two different types of soil samples and redo the soil texture analysis.
+        </p>
+      </example>
+    
+      <example> <title>Standard 5-PS1-4</title>
+        <p>
+          Description: Conduct an investigation to determine whether the mixing of two or more substances results in new
+substances.
+        </p>
+        <p><em>In-class exercise:</em> Materials needed: scale or balance, jars with lids, thermometer, marker, soil collected from different natural local locations.</p>
+<p>
+Fill a jar halfway full with water and close tightly with a lid. Stick a thermometer in the water and weigh the jar. Record the weight and the temperature. Then, stick the jar outside to be warmed by the sun. After several minutes, record the temperature and weight. </p>
+<p>
+Next, use the jar and water to conduct soil texture activity (<url href="https://www.soils4kids.org/files/s4k/soil-texture-experiment.pdf"/>). Tell students where soils were collected from so they can figure out the soil texture in those locations. </p>
+<p>
+Refer to the “Background Agricultural Connections” portion of this website (<url href="https://agclassroom.org/matrix/lesson/print/365/"/>)
+ to talk to students about the importance of knowing soil texture for farming. Next, mix two different types of soil samples and redo the soil texture analysis.
+        </p>
+      </example>
+    
+      <example> <title>Standard 5-PS2-1</title>
+        <p>
+          Description: Support an argument that the gravitational force exerted by Earth on objects is directed down.
+        </p>
+        <p><em>In-class exercise:</em> Conduct this activity on soil infiltration (<url href="https://sndl.ucmerced.edu/files/MHWG/Field/Southern_Sierra_CZO_KREW/Education_and_Outreach/Activities/Activity3_SoilInfiltrationandTexture.pdf"/>)</p>
+<p>
+Relate this activity to how when water is applied to crop fields the water moves into the soil due to gravity.
+        </p>
+      </example>
+    
+      <example> <title>Standard 5-PS3-1</title>
+        <p>
+          Description: Use models to describe that energy in animals’ food (used for body repair, growth, motion, and to maintain
+body warmth) was once energy from the sun.
+        </p>
+        <p><em>In-class exercise:</em> Relate concepts to farming and gardening practices used to grow food for Pueblo people. Refer to the “Pueblo Farming Methods for your Resilient Garden” webpage and videos embedded on the webpage (<url href="https://thegrownetwork.com/pueblo-farming-methods/"/>).
+        </p>
+      </example>
+    </subsection>
+    <!-- Sixth Grade -->
+    <subsection><title>Sixth Grade</title>
+    <assemblage>
+            <title>Context 1: Chaco Canyon and Climate Change </title>
+            <p>This context will relate the following standards to climate change and Chaco Canyon, including the history of Chaco Canyon, astronomy and architecture, ties to climate change, and current oil and gas development in the area. Some evidence shows that the peoples who lived in Chaco Canyon may have been impacted by past climate change or a megadrought (http://pastglobalchanges.org/download/docs/magazine/2016-2/PAGESmagazine_2016%282%29_64-65_Betancourt.pdf). More context on Chaco Canyon history can be found here: https://www.nps.gov/chcu/learn/historyculture/index.htm. More information on oil and gas development in the Chaco Canyon region can be found here: https://www.sanjuancitizens.org/chaco.  </p> 
+       </assemblage> 
+    
+      <example> <title>Standard 5-ESS1-1</title>
+        <p>
+          Description: Support an argument that differences in the apparent brightness of the sun compared to other stars is due to their relative distances from the Earth.
+        </p>
+        <p><em>In-class or take home exercise:</em>Introduce students to photovoltaics by discussing how some Native communities in the Southwest rely on solar energy technology to provide electricity in their homes. Show students the Native Renewables website (<url href="https://www.nativerenewables.org/" />). Download and pass out the zine created by Native Renewables that explains photovoltaics (<url href="https://static1.squarespace.com/static/5f491be9a82eed6a01fd24ac/t/6018a18e281db443ae79bb0e/1612226961043/Solar%2BMinizine%2Bv14.pdf" />). 
+        </p>
+        <p><em>Questions:</em>What are ways you use electricity in your homes? What happens when your home doesn’t have electricity? Why do photovoltaics only work during the day? Can photovoltaics work at night using light from other stars? 
+        </p>
+      </example>
+    </subsection>
+    <!-- Seventh Grade -->
+    <subsection><title>Seventh Grade</title>
+    <assemblage>
+            <title>Context 1: Rivers and life in the Middle Rio Grande </title>
+          
+       </assemblage> 
+    
+      <example> <title>Standard 5-ESS1-1</title>
+        <p>
+          Description: Support an argument that differences in the apparent brightness of the sun compared to other stars is due to their relative distances from the Earth.
+        </p>
+        <p><em>In-class or take home exercise:</em>Introduce students to photovoltaics by discussing how some Native communities in the Southwest rely on solar energy technology to provide electricity in their homes. Show students the Native Renewables website (<url href="https://www.nativerenewables.org/" />). Download and pass out the zine created by Native Renewables that explains photovoltaics (<url href="https://static1.squarespace.com/static/5f491be9a82eed6a01fd24ac/t/6018a18e281db443ae79bb0e/1612226961043/Solar%2BMinizine%2Bv14.pdf" />). 
+        </p>
+        <p><em>Questions:</em>What are ways you use electricity in your homes? What happens when your home doesn’t have electricity? Why do photovoltaics only work during the day? Can photovoltaics work at night using light from other stars? 
+        </p>
+      </example>
+    </subsection>
+    
+    <!-- Eighth Grade -->
+    <subsection><title>Eighth Grade</title>
+    <assemblage>
+            <title>Context 1: Fires and Floods in our forested watersheds</title>
+            <p>Wildfires and floods from monsoon rains are common occurrences in New Mexico. Fire crews from Pueblo communities have assisted in fighting many wildfires in New Mexico and across the West. More recently, Pueblo communities have been helping to restore cultural burning practices to help reduce the occurrences of catastrophic wildfires. Pueblo emergency management and natural resource departments are also working to understand flood risk due to wildfires and intense monsoon storms. Using this context will help students to connect concepts addressed in the following standards to issues Pueblo communities have been active in addressing. </p> 
+       </assemblage> 
+    
+      <example> <title>Standard 5-ESS1-1</title>
+        <p>
+          Description: Support an argument that differences in the apparent brightness of the sun compared to other stars is due to their relative distances from the Earth.
+        </p>
+        <p><em>In-class or take home exercise:</em>Introduce students to photovoltaics by discussing how some Native communities in the Southwest rely on solar energy technology to provide electricity in their homes. Show students the Native Renewables website (<url href="https://www.nativerenewables.org/" />). Download and pass out the zine created by Native Renewables that explains photovoltaics (<url href="https://static1.squarespace.com/static/5f491be9a82eed6a01fd24ac/t/6018a18e281db443ae79bb0e/1612226961043/Solar%2BMinizine%2Bv14.pdf" />). 
+        </p>
+        <p><em>Questions:</em>What are ways you use electricity in your homes? What happens when your home doesn’t have electricity? Why do photovoltaics only work during the day? Can photovoltaics work at night using light from other stars? 
+        </p>
+      </example>
+    </subsection>
 </section>
